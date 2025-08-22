@@ -12,6 +12,10 @@ GTCEuStartupEvents.registry("gtceu:element", event => {
     event.create('mana_ultra')
         .symbol('**Ma**')
 })
+GTCEuStartupEvents.registry("gtceu:material", event => {
+    GTMaterials.get("darmstadtium").addFlags(GTMaterialFlags.GENERATE_GEAR)
+    GTMaterials.get('neutronium').addFlags(GTMaterialFlags.GENERATE_SMALL_GEAR)
+})
 
 GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("energetic_alloy")
@@ -1646,23 +1650,8 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
 })
 
 StartupEvents.postInit(event => {
-    TagPrefix.ingot.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_ingot")
-    TagPrefix.nugget.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_nugget")
-    TagPrefix.block.setIgnored(GTMaterials.get("mana_steel"), "botania:manasteel_block")
-    TagPrefix.ingot.setIgnored(GTMaterials.get("terra_steel"), "botania:terrasteel_ingot")
-    TagPrefix.nugget.setIgnored(GTMaterials.get("terra_steel"), "botania:terrasteel_nugget")
-    TagPrefix.block.setIgnored(GTMaterials.get("terra_steel"), "botania:terrasteel_block")
-    TagPrefix.ingot.setIgnored(GTMaterials.get("elementium"), "botania:elementium_ingot")
-    TagPrefix.nugget.setIgnored(GTMaterials.get("elementium"), "botania:elementium_nugget")
-    TagPrefix.block.setIgnored(GTMaterials.get("elementium"), "botania:elementium_block")
-    TagPrefix.ingot.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_ingot")
-    TagPrefix.nugget.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_nugget")
-    TagPrefix.block.setIgnored(GTMaterials.get("alfsteel"), "mythicbotany:alfsteel_block")
     TagPrefix.ingot.setIgnored(GTMaterials.get("ignitium"), "cataclysm:ignitium_ingot")
     TagPrefix.block.setIgnored(GTMaterials.get("ignitium"), "cataclysm:ignitium_block")
-    TagPrefix.gem.setIgnored(GTMaterials.CertusQuartz, 'ae2:certus_quartz_crystal')
-    TagPrefix.block.setIgnored(GTMaterials.CertusQuartz, 'ae2:quartz_block')
-
     function setFormula(material, formula) {
         const mat = GTMaterials.get(material)
         if (mat === null)
