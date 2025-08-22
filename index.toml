@@ -4626,7 +4626,7 @@ hash = "69711a287e300e21c1babd996f25c57347879ce8f50915bd0210dd90c30e6344"
 
 [[files]]
 file = "kubejs/assets/gtceu/lang/zh_cn.json"
-hash = "8d32ea4237b1a35bbae3a192fcbb52db24f28102064a87a4a712af6b91c0724e"
+hash = "766c437d73828c4fc38f97bc1be39460133f55643131fee0cafe360058d4bb75"
 
 [[files]]
 file = "kubejs/assets/gtceu/textures/block/machines/inscriber/overlay_front.png"
@@ -9326,7 +9326,7 @@ hash = "a65c3670ba34a021db23b348ac46707b1cc12975a315039198aa39a565cffefa"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "c18cb654bc1979fb3aebb6f6498a7698fa3a5d6f970755902edccf2bc02474c0"
+hash = "9c329a6eed63abe6ad8975d96bd6551337de020163f8226fbb629ed407a0634d"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -17126,7 +17126,7 @@ hash = "d48a9033c9f49e9a6e54a93d636b5c83d4a6e31397816ece3ce4c3dc00fad2be"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTmaterials.js"
-hash = "5017e659ae6635f3b3399765a13f9cbcc19d5ee1e5170e4e5654420bf395ccc6"
+hash = "1c0530e3e7c52cffc31f64144f8778435d659764eea055c4bf07e8e70749a432"
 
 [[files]]
 file = "kubejs/startup_scripts/src/GT/GTrecipetypes.js"
@@ -18370,7 +18370,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintage-improvenents-ssw-edition.pw.toml"
-hash = "db88eb852871931fe5a6afc9e1650ec469dae097c88a2d4e10f9b68a8e7dc6b9"
+hash = "391ad04ee54e66189a34c8a023bb0b9db5f7982c80f2a2f674d4f00481781db9"
 metafile = true
 
 [[files]]
