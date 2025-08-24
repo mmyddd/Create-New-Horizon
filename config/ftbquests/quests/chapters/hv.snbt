@@ -151,55 +151,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["67FD8ABB15A41C68"]
-			id: "252739AF54D430F1"
-			tasks: [{
-				id: "5BBD12AD739833B5"
-				item: "gtceu:concentrated_platinum_bucket"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"252739AF54D430F1"
-				"613BDF61BD8CAD08"
-			]
-			id: "75D2EDFB44469AA3"
-			tasks: [{
-				id: "15653816F3199CEB"
-				item: "gtceu:platinum_raw_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"75D2EDFB44469AA3"
-				"3A0D1B6A8BB681C8"
-			]
-			dependency_requirement: "one_completed"
-			id: "711DB49F2C74338E"
-			tasks: [{
-				id: "64534BF5FD291ED2"
-				item: "gtceu:platinum_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["711DB49F2C74338E"]
 			id: "7DBD4E3F9C69B8B9"
+			subtitle: "火箭的基座"
 			tasks: [{
 				id: "1C9645915DC7C96B"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 9.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["67553CBF5BACA32D"]
@@ -316,7 +276,6 @@
 			dependencies: [
 				"7DBD4E3F9C69B8B9"
 				"66E49577299CA3D6"
-				"1157261D1C6FA682"
 				"16243C6CC9C1CD8A"
 			]
 			dependency_requirement: "one_completed"
@@ -334,10 +293,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"609BE0CAB05D3EA6"
-				"458DB8BA0CA5475B"
-			]
+			dependencies: ["609BE0CAB05D3EA6"]
 			dependency_requirement: "one_completed"
 			description: [
 				"{ftbquests.chapter.hv.quest20.description1}"
@@ -350,8 +306,8 @@
 				item: "gtceu:rocket_fuel_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -366,16 +322,6 @@
 			}]
 			x: 5.0d
 			y: 4.0d
-		}
-		{
-			id: "458DB8BA0CA5475B"
-			tasks: [{
-				id: "6BD2C9E30A8023B5"
-				item: "gtceu:dinitrogen_tetroxide_bucket"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["4D2FAC9783965D60"]
@@ -554,37 +500,33 @@
 			y: 7.928571428571431d
 		}
 		{
-			dependencies: ["424772830FBFDBB7"]
 			id: "054DC65B4D479B15"
-			tasks: [{
-				id: "3FDF09458955286B"
+			rewards: [{
+				count: 16
+				id: "7B99215CA2A07004"
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["4DCA7E4E57817E0A"]
-			icon: "gtceu:raw_bauxite"
-			id: "424772830FBFDBB7"
+			subtitle: "你需要搞钛了，所以该去挖铝土或者钛铁了！"
 			tasks: [
 				{
-					count: 16L
-					id: "2B1FA54B7A24075E"
+					id: "3FDF09458955286B"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+				{
+					id: "56DE0709B5610581"
 					item: "gtceu:raw_bauxite"
 					type: "item"
 				}
 				{
-					count: 16L
-					id: "1B064681E25AA75D"
+					id: "376BCB651A9E0CB2"
 					item: "gtceu:raw_ilmenite"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hv.quest31.title}"
-			x: 7.5d
-			y: 8.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
@@ -640,179 +582,6 @@
 			}]
 			x: -4.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["252739AF54D430F1"]
-			id: "68ACBAE19E62780E"
-			tasks: [{
-				id: "1D6916FA0D29A51C"
-				item: "gtceu:palladium_rich_ammonia_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["68ACBAE19E62780E"]
-			id: "51AE7A401FA7C4E4"
-			tasks: [{
-				id: "63229CAAFE44E343"
-				item: "gtceu:palladium_salt_dust"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["51AE7A401FA7C4E4"]
-			id: "7B455761B190CE9C"
-			tasks: [{
-				id: "0F89204DC551F0F0"
-				item: "gtceu:palladium_metal_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"7F34AA0DBB79E313"
-				"2D0E2C949FAD45B3"
-			]
-			dependency_requirement: "one_completed"
-			id: "504C916C6A71A1E4"
-			tasks: [{
-				id: "49C039875921920F"
-				item: "gtceu:palladium_dust"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7B455761B190CE9C"]
-			id: "7F34AA0DBB79E313"
-			tasks: [{
-				id: "1DD386A52F89F304"
-				item: "gtceu:palladium_raw_dust"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["252739AF54D430F1"]
-			id: "4CD18247F1C3467B"
-			tasks: [{
-				id: "11C1CBA5A6716796"
-				item: "gtceu:platinum_slag_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4CD18247F1C3467B"]
-			id: "57E7077A02539989"
-			tasks: [{
-				id: "512B606D88C52B38"
-				item: "gtceu:inert_metal_mixture_dust"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["57E7077A02539989"]
-			id: "46209F2394262EEC"
-			tasks: [{
-				id: "539DEC1506E323F4"
-				item: "gtceu:sodium_rutheniate_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["46209F2394262EEC"]
-			id: "0B3C5D524F3DD34A"
-			tasks: [{
-				id: "7693CD97E5C2524A"
-				item: "gtceu:ruthenium_tetroxide_bucket"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0B3C5D524F3DD34A"]
-			id: "1DFF0FB3681AA9BA"
-			tasks: [{
-				id: "492F807AF0714198"
-				item: "gtceu:ruthenium_tetroxide_dust"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1DFF0FB3681AA9BA"
-				"2CF0374F90D4B470"
-			]
-			dependency_requirement: "one_completed"
-			id: "5E6E9A02C455FDB7"
-			tasks: [{
-				id: "5AA1DCBB554AE1A8"
-				item: "gtceu:ruthenium_dust"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4CD18247F1C3467B"]
-			id: "76B28AE888846A6D"
-			tasks: [{
-				id: "6A30A12CC5BB170C"
-				item: "gtceu:rhodium_sulfate_bucket"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["57E7077A02539989"]
-			id: "58DF32A680986279"
-			tasks: [{
-				id: "4A6C7ADE5C30A6A3"
-				item: "gtceu:rarest_metal_mixture_dust"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["58DF32A680986279"]
-			id: "60F1F78FB2B30FD2"
-			tasks: [{
-				id: "30E3F3F1F9A8B7BB"
-				item: "gtceu:acidic_osmium_solution_bucket"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["58DF32A680986279"]
-			id: "5E1597F46B29ED41"
-			tasks: [{
-				id: "1D4DF6B22D2EEC0E"
-				item: "gtceu:iridium_metal_residue_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["773CB6E376B56EA4"]
@@ -912,8 +681,8 @@
 				item: "kubejs:platinum_metal_catalyst"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 11.5d
+			y: -6.5d
 		}
 		{
 			id: "35205D5CBE5A1498"
@@ -922,8 +691,8 @@
 				item: "kubejs:platinum_metal_catalyst_shard1"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.5d
+			x: 13.0d
+			y: -5.0d
 		}
 		{
 			id: "6F12F4AE6F3F9007"
@@ -932,21 +701,8 @@
 				item: "kubejs:platinum_metal_catalyst_shard2"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["773CB6E376B56EA4"]
-			hide_dependency_lines: true
-			id: "2693AB1D8C40E181"
-			subtitle: "{ftbquests.chapter.hv.quest57.subtitle}"
-			tasks: [{
-				id: "1CAD59C11FB75991"
-				item: "gtceu:mana_seperator"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -4.5d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["36968F23015BC87A"]
@@ -977,8 +733,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest59.title}"
-			x: 5.0d
-			y: 1.0d
+			x: 11.5d
+			y: -4.0d
 		}
 		{
 			id: "2D0E2C949FAD45B3"
@@ -991,8 +747,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest60.title}"
-			x: 10.0d
-			y: 0.0d
+			x: 9.5d
+			y: -9.0d
 		}
 		{
 			id: "2CF0374F90D4B470"
@@ -1005,100 +761,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest61.title}"
-			x: 11.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["76B28AE888846A6D"]
-			id: "620105BA92638E7F"
-			tasks: [{
-				id: "6DF051A140DC5B62"
-				item: "gtceu:roughly_rhodium_metal_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["620105BA92638E7F"]
-			id: "1CF6C93AA8763E6F"
-			tasks: [{
-				id: "6261500D6BC773F1"
-				item: "gtceu:rhodium_salt_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["1CF6C93AA8763E6F"]
-			id: "7C6C4AAF05BA4C32"
-			tasks: [{
-				id: "55E4C75B0EF4A201"
-				item: "gtceu:rhodium_salt_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7C6C4AAF05BA4C32"]
-			id: "7D43208EB21CE1EB"
-			tasks: [{
-				id: "1799CD7280FFA2CC"
-				item: "gtceu:rhodium_nitrate_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["7D43208EB21CE1EB"]
-			id: "1E8FCEBCD0B9052C"
-			tasks: [{
-				id: "4319479FACE89CA9"
-				item: "gtceu:rhodium_filter_cake_dust"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["1E8FCEBCD0B9052C"]
-			id: "29DEADCF9B660111"
-			tasks: [{
-				id: "3F083119A6A3279F"
-				item: "gtceu:rhodium_filter_cake_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -9.0d
-		}
-		{
-			dependencies: ["29DEADCF9B660111"]
-			id: "3E387FE21BE8CB34"
-			tasks: [{
-				id: "5CC0403C9B1B7CA4"
-				item: "gtceu:reprecipitated_rhodium_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -9.0d
-		}
-		{
-			dependencies: [
-				"3E387FE21BE8CB34"
-				"06D3380949C950AB"
-			]
-			dependency_requirement: "one_completed"
-			id: "4FA7ECD35E694D1C"
-			tasks: [{
-				id: "73823B8F7C95F40E"
-				item: "gtceu:rhodium_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -10.5d
+			x: 9.5d
+			y: -12.0d
 		}
 		{
 			id: "06D3380949C950AB"
@@ -1111,60 +775,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest70.title}"
-			x: 3.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["60F1F78FB2B30FD2"]
-			id: "192D6140DE51D498"
-			tasks: [{
-				id: "404CA996D36E68A0"
-				item: "gtceu:osmium_tetroxide_bucket"
-				type: "item"
-			}]
-			x: 5.5d
+			x: 2.5d
 			y: -7.5d
-		}
-		{
-			dependencies: [
-				"192D6140DE51D498"
-				"7CD360494125BA99"
-			]
-			dependency_requirement: "one_completed"
-			id: "4A412A967394C59E"
-			tasks: [{
-				id: "229568711AA50343"
-				item: "gtceu:osmium_dust"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["5E1597F46B29ED41"]
-			id: "10485A3F097F8879"
-			tasks: [{
-				id: "24D1DF3F77D16937"
-				item: "gtceu:iridium_chloride_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -7.5d
-		}
-		{
-			dependencies: [
-				"10485A3F097F8879"
-				"68D549689E87C106"
-			]
-			dependency_requirement: "one_completed"
-			id: "401CC51AA97A3DD2"
-			tasks: [{
-				id: "0BCC999357AC989F"
-				item: "gtceu:iridium_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -9.0d
 		}
 		{
 			id: "68D549689E87C106"
@@ -1177,8 +789,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest75.title}"
-			x: 7.0d
-			y: -10.5d
+			x: 7.5d
+			y: -7.5d
 		}
 		{
 			id: "2B5737AFD88F1BA5"
@@ -1252,8 +864,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest81.title}"
-			x: 5.5d
-			y: -10.5d
+			x: 11.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["29C2D8D206649CE5"]
@@ -1291,13 +903,14 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			subtitle: "极好的布料！"
 			tasks: [{
 				id: "3E81E8A2C38E6E7E"
 				item: "kubejs:space_fabric"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.0d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -1525,8 +1138,8 @@
 				item: "ctnhcore:fuel_refining_factory"
 				type: "item"
 			}]
-			x: 14.773809523809518d
-			y: -4.785714285714263d
+			x: 19.06547619047616d
+			y: 0.9761904761904674d
 		}
 		{
 			id: "43DCA5278B555E39"
@@ -1536,8 +1149,8 @@
 				title: "{ftbquests.chapter.hv.quest103.task_+1310607931008269027.title}"
 				type: "checkmark"
 			}]
-			x: 14.845238095238088d
-			y: -1.5714285714285552d
+			x: 16.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["054DC65B4D479B15"]
@@ -1547,7 +1160,7 @@
 				item: "gtceu:titanium_tetrachloride_v_bucket"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -1558,7 +1171,7 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -1720,28 +1333,6 @@
 			y: -4.0d
 		}
 		{
-			id: "4FEF1435F8379246"
-			subtitle: "{ftbquests.chapter.hv.quest119.subtitle}"
-			tasks: [{
-				id: "694AEBE488F9A480"
-				item: "gtceu:crushed_nickel_ore"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4FEF1435F8379246"]
-			id: "67FD8ABB15A41C68"
-			tasks: [{
-				id: "31455B940096D11C"
-				item: "gtceu:platinum_metal_dust"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["36968F23015BC87A"]
 			id: "5871572C3F0A1CAB"
 			shape: "gear"
@@ -1833,8 +1424,8 @@
 				item: "ctnhcore:astronomical_observatory"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 15.0d
+			y: 0.0d
 		}
 		{
 			id: "2200E459E683E83E"
@@ -1844,8 +1435,8 @@
 				item: "ctnhcore:astronomy_circuit_1"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.0d
+			x: 15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1889,8 +1480,860 @@
 				title: "悄悄告诉你"
 				type: "checkmark"
 			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5398DAABBAC5DD00"
+				"613BDF61BD8CAD08"
+			]
+			description: ["多准备点大型化学反应釜"]
+			id: "76570642BA21C170"
+			rewards: [{
+				count: 256
+				id: "4A5271221AE77F2A"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			subtitle: "铂处理的开端"
+			tasks: [{
+				id: "31C4A84D6DE8B3BA"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76570642BA21C170"]
+			id: "66CC33CA92DE1631"
+			rewards: [{
+				count: 64
+				id: "1BEE1A366FE9DC48"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:aqua_regia"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "剩余的残渣，但里面有你需要处理的部分"
+			tasks: [{
+				id: "56004CDC3887FB01"
+				item: "gtceu:platinum_group_residue_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76570642BA21C170"]
+			id: "61AB48B7BD985BA7"
+			rewards: [{
+				count: 64
+				id: "2FFA0E9C7D2772A9"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:aqua_regia"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "传统的王水溶金的步骤"
+			tasks: [{
+				id: "502BB82E49DF0DAD"
+				item: "gtceu:gold_platinum_palladium_acid_solution_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61AB48B7BD985BA7"]
+			id: "4F38FE2D35D2C4FF"
+			rewards: [{
+				count: 64
+				id: "47A6B3F78689B511"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这一步需要循环，为了防止其溶液中剩余的NOCL2氧化之后的试剂"
+			tasks: [{
+				id: "254E23B777713E1D"
+				item: "gtceu:denitrated_gold_platinum_palladium_solution_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "4809C1FDDB82B183"
+			subtitle: "很好的还原剂"
+			tasks: [{
+				id: "42025321D11444FF"
+				item: "gtceu:ferrous_sulfate_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4809C1FDDB82B183"
+				"4F38FE2D35D2C4FF"
+			]
+			id: "3C54381784E21D36"
+			rewards: [{
+				count: 128
+				id: "08562C1D6B654FC0"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			subtitle: "除金"
+			tasks: [
+				{
+					id: "6A41554A9B0AF807"
+					item: "gtceu:chloroplatinic_chloropalladic_solution_bucket"
+					type: "item"
+				}
+				{
+					id: "5770B516FF4A55E9"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C54381784E21D36"]
+			id: "69F2F96A57FE3FD2"
+			rewards: [{
+				count: 18
+				id: "2D46DBE2A2068A84"
+				item: "gtceu:ammonium_chloroplatinate_dust"
+				type: "item"
+			}]
+			subtitle: "要提炼出来了！"
+			tasks: [{
+				id: "58CF000060D9ADCF"
+				item: "gtceu:ammonium_chloroplatinate_dust"
+				type: "item"
+			}]
 			x: 7.5d
-			y: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C54381784E21D36"]
+			id: "39D77D9F7253A94F"
+			rewards: [{
+				count: 4
+				id: "382FF10854A10411"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:chloroplatinic_chloropalladic_solution"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "要有钯了"
+			tasks: [{
+				id: "7A6476B18D1F0CC1"
+				item: "gtceu:chloropalladic_acid_mixture_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39D77D9F7253A94F"]
+			id: "1DB05EE533DE5837"
+			rewards: [{
+				count: 15
+				id: "784F650643B62EAC"
+				item: "gtceu:diamminedichloropalladium_dust"
+				type: "item"
+			}]
+			subtitle: "钯沉积"
+			tasks: [{
+				id: "658D74135D1A840D"
+				item: "gtceu:diamminedichloropalladium_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69F2F96A57FE3FD2"]
+			id: "59BE59A9F645A6A6"
+			rewards: [{
+				count: 16
+				id: "4A30D01945461EA3"
+				item: "gtceu:sponge_platinum_dust"
+				type: "item"
+			}]
+			subtitle: "需要再进一步加工"
+			tasks: [{
+				id: "39E971C115B99168"
+				item: "gtceu:sponge_platinum_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DB05EE533DE5837"]
+			id: "62284F5D9CAAC9FE"
+			rewards: [{
+				count: 16
+				id: "5AF224614FAE9083"
+				item: "gtceu:sponge_palladium_dust"
+				type: "item"
+			}]
+			subtitle: "和海绵铂一样，需要进一步加工"
+			tasks: [{
+				id: "0C7A56C92A1785ED"
+				item: "gtceu:sponge_palladium_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"59BE59A9F645A6A6"
+				"3A0D1B6A8BB681C8"
+			]
+			dependency_requirement: "one_completed"
+			id: "00219CD78870BD38"
+			rewards: [
+				{
+					count: 16
+					id: "5FD9C881CCBEB7FF"
+					item: "gtceu:platinum_dust"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "7C2797F745B2712F"
+					item: "gtceu:platinum_group_sludge_dust"
+					type: "item"
+				}
+			]
+			subtitle: "你的铂线结束了....吗？"
+			tasks: [{
+				id: "04D8146E9D4BC21A"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"62284F5D9CAAC9FE"
+				"2D0E2C949FAD45B3"
+			]
+			dependency_requirement: "one_completed"
+			id: "4C55F5064284D1FE"
+			rewards: [{
+				id: "2C6F7A786E6D252C"
+				item: "gtceu:exquisite_palladium_sulfide_gem"
+				type: "item"
+			}]
+			subtitle: "你的钯线结束了！"
+			tasks: [{
+				id: "3EE3EC9387ED5DAB"
+				item: "gtceu:palladium_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			id: "7EE2773773CDBF98"
+			subtitle: "能除去杂质"
+			tasks: [{
+				id: "3BD92A5673751F86"
+				item: "gtceu:litharge_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7EE2773773CDBF98"
+				"66CC33CA92DE1631"
+			]
+			id: "4382A0724EFD79AF"
+			rewards: [{
+				count: 64
+				id: "7EC2A18F1D2959EC"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "一种对于贵金属的提炼有着富集作用的合金"
+			tasks: [{
+				id: "5A6E00727BC1E58D"
+				item: "gtceu:noble_lead_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4382A0724EFD79AF"]
+			id: "748BAEA159FB6767"
+			rewards: [{
+				count: 16
+				id: "7953286E27812178"
+				item: "gtceu:litharge_dust"
+				type: "item"
+			}]
+			subtitle: "你富集了钌铑铱锇！现在可以开始着手处理它们了！"
+			tasks: [{
+				id: "7E1740FFE762DE13"
+				item: "gtceu:enriched_inert_mixture_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4382A0724EFD79AF"]
+			id: "72730E01390EAA6D"
+			subtitle: "记得回收硝酸和铅"
+			tasks: [{
+				id: "2ED7D558EE332406"
+				item: "gtceu:nitric_leach_solution_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "19F7CBF32FC5D8DB"
+			tasks: [{
+				id: "46F65EA3EF045CAF"
+				item: "gtceu:sodium_bisulfate_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"748BAEA159FB6767"
+				"19F7CBF32FC5D8DB"
+			]
+			id: "1C54BF343868F833"
+			rewards: [{
+				count: 32
+				id: "65D23979F8F1C5BC"
+				item: "gtceu:rhodium_sulfate_dust"
+				type: "item"
+			}]
+			subtitle: "铑线要开始了"
+			tasks: [{
+				id: "1C96015FE28E14F7"
+				item: "gtceu:rhodium_sulfate_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1C54BF343868F833"]
+			id: "20704AF21D303F9A"
+			rewards: [{
+				count: 64
+				id: "73F6D631BDE58602"
+				item: "gtceu:sodium_hydroxide_dust"
+				type: "item"
+			}]
+			subtitle: "起码铑滤饼没了"
+			tasks: [{
+				id: "57F725066172032B"
+				item: "gtceu:rhodium_sulfate_solution_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["20704AF21D303F9A"]
+			id: "60A4ACC99FEDDF41"
+			rewards: [{
+				id: "10A6927120486826"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			subtitle: "知道为什么上一步送你氢氧化钠了吗？"
+			tasks: [{
+				id: "1884D16E239210BC"
+				item: "gtceu:rhodium_hydroxide_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["60A4ACC99FEDDF41"]
+			id: "3E0676E5605C3307"
+			rewards: [{
+				count: 64
+				id: "7FE81ECEC155DDAD"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "好多氯"
+			tasks: [{
+				id: "38DA02077C9E10E8"
+				item: "gtceu:chlororhodic_acid_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3E0676E5605C3307"]
+			id: "7F780130445951BA"
+			rewards: [{
+				count: 64
+				id: "34AFA81CAEA024CC"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "怎么又是氯*酸铵！？"
+			tasks: [{
+				id: "37C63259D03FF101"
+				item: "gtceu:ammonium_chlororhodate_solution_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7F780130445951BA"]
+			id: "34BC167611A9C4B8"
+			rewards: [{
+				id: "08A572D3622F29A1"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			subtitle: "要蒸馏塔来把多余的水分蒸干"
+			tasks: [{
+				id: "0A488CBDFDF31755"
+				item: "gtceu:concentrated_ammonium_chlororhodate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["34BC167611A9C4B8"]
+			id: "187D39EA548932A9"
+			rewards: [{
+				id: "777558EF6B2DA5DE"
+				item: "gtceu:hv_autoclave"
+				type: "item"
+			}]
+			subtitle: "要结晶，还要重结晶"
+			tasks: [{
+				id: "6C6687F2E66B4F0C"
+				item: "gtceu:ammonium_chlororhodate_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["187D39EA548932A9"]
+			id: "7124592C7F0F8CBB"
+			rewards: [{
+				count: 16
+				id: "196BFCEBBF315938"
+				item: "gtceu:sponge_rhodium_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2037D5B14DDFD574"
+				item: "gtceu:sponge_rhodium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7124592C7F0F8CBB"
+				"06D3380949C950AB"
+			]
+			dependency_requirement: "one_completed"
+			id: "3CF943647A3FEF23"
+			rewards: [
+				{
+					id: "5710FBF34C70D142"
+					item: "gtceu:exquisite_rhodium_sulfur_crystal_gem"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F1E07C69EC8AD11"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+			]
+			subtitle: "铑线结束了！"
+			tasks: [{
+				id: "70DDC077BCBF78DB"
+				item: "gtceu:rhodium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["748BAEA159FB6767"]
+			id: "598CA6429BCD474D"
+			subtitle: "还剩钌铱锇！"
+			tasks: [{
+				id: "526357A6518A7337"
+				item: "gtceu:precious_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["598CA6429BCD474D"]
+			id: "318377EE1909A9F1"
+			subtitle: "一步出....二氧化铱！"
+			tasks: [{
+				id: "6E46FAEE64C6C006"
+				item: "gtceu:iridium_dioxide_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"318377EE1909A9F1"
+				"68D549689E87C106"
+			]
+			dependency_requirement: "one_completed"
+			id: "629025CD6061812A"
+			rewards: [{
+				count: 16
+				id: "0E9A7D69F910E91A"
+				item: "gtceu:iridium_ingot"
+				type: "item"
+			}]
+			subtitle: "被碳还原"
+			tasks: [{
+				id: "1B200A2A3EAD3500"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["598CA6429BCD474D"]
+			description: ["先送你台高炉"]
+			id: "4B563EBBED91880E"
+			rewards: [{
+				id: "0A3B2DF7B05F7E0A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			subtitle: "锇和钌一个级别？"
+			tasks: [{
+				id: "5C959C0D0099CB52"
+				item: "gtceu:sodium_osmate_ruthenate_solution_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			description: ["但是你能获取的利益也是极高的"]
+			id: "5398DAABBAC5DD00"
+			subtitle: "这一条被动产线是必须做的"
+			tasks: [{
+				id: "23759F31EE683616"
+				title: "铂线须知"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B563EBBED91880E"]
+			id: "46505EA0DA28C660"
+			rewards: [{
+				count: 64
+				id: "25FFFDED05B61904"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "氯化，说明....."
+			tasks: [{
+				id: "4C01BC384F1CBFBA"
+				item: "gtceu:sodium_osmate_ruthenate_chloride_solution_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["46505EA0DA28C660"]
+			id: "0C3A7C7254CA643D"
+			rewards: [{
+				id: "595734A4B58A0D5F"
+				item: "gtceu:hv_distillery"
+				type: "item"
+			}]
+			subtitle: "要提纯了"
+			tasks: [{
+				id: "57871A1F142EE8BD"
+				item: "gtceu:ruthenium_tetroxide_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["46505EA0DA28C660"]
+			id: "77295D35CE979A6E"
+			rewards: [{
+				id: "6A05E5ACBDBA419B"
+				item: "gtceu:hv_distillery"
+				type: "item"
+			}]
+			subtitle: "已经变成氧化物了,说明离提纯不远了"
+			tasks: [{
+				id: "6BBEE40EA5DC0544"
+				item: "gtceu:osmium_tetroxide_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0C3A7C7254CA643D"]
+			id: "4FB4EDF52687C108"
+			rewards: [{
+				count: 64
+				id: "49C1C9799D7281CB"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "终究还是氯化物"
+			tasks: [{
+				id: "63CC2A3AC9009A0C"
+				item: "gtceu:chlororuthenic_acid_gas_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["77295D35CE979A6E"]
+			id: "33C0E2DC9A2C7BE3"
+			rewards: [{
+				count: 64
+				id: "262E9F22D353E6C6"
+				item: {
+					Count: 1
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:hydrochloric_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "氯化物还是来了"
+			tasks: [{
+				id: "568E255B28D677AF"
+				item: "gtceu:chlorosmic_acid_gas_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["33C0E2DC9A2C7BE3"]
+			id: "746834DD6772C317"
+			rewards: [{
+				count: 64
+				id: "4101F46B5967A9ED"
+				item: "gtceu:ammonium_chloride_dust"
+				type: "item"
+			}]
+			subtitle: "氯酸，还是氯酸"
+			tasks: [{
+				id: "487AA4F97BB847ED"
+				item: "gtceu:ammonium_chlorosmate_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4FB4EDF52687C108"]
+			id: "1225D580EDE95E59"
+			rewards: [{
+				count: 64
+				id: "4738F905D7CEE4FB"
+				item: "gtceu:ammonium_chloride_dust"
+				type: "item"
+			}]
+			subtitle: "是的，又是氯酸"
+			tasks: [{
+				id: "344BA7163DE37CD8"
+				item: "gtceu:ammonium_chlororuthenate_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"1225D580EDE95E59"
+				"2CF0374F90D4B470"
+			]
+			dependency_requirement: "one_completed"
+			id: "209F7EBBBAC71719"
+			rewards: [{
+				count: 16
+				id: "0A04691DB92EDB95"
+				item: "gtceu:raw_ruthenium_amalgam"
+				type: "item"
+			}]
+			subtitle: "你的铂线一定还差铱！"
+			tasks: [{
+				id: "77D0D0A336F12061"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"746834DD6772C317"
+				"7CD360494125BA99"
+			]
+			dependency_requirement: "one_completed"
+			id: "67CAE725926B96E8"
+			rewards: [
+				{
+					count: 4
+					id: "09A17DE43EF3589F"
+					item: "gtceu:osmium_dust"
+					type: "item"
+				}
+				{
+					id: "30827ADDA1563287"
+					item: "gtceu:exquisite_osmium_iron_spinel_gem"
+					type: "item"
+				}
+			]
+			subtitle: "你现在的铂线结束了，记得有EV能源仓的时候给铱也安排上"
+			tasks: [{
+				id: "22C1F0436669D850"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.5d
+		}
+		{
+			id: "018B70964B9E17DD"
+			subtitle: "你可以只造任意一条线，另一条就可以通入原料来达到自动化了"
+			tasks: [{
+				id: "1C0EE0060D081C4A"
+				title: "这两条线的处理方式相同，说明了什么？"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -10.5d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"
