@@ -1670,7 +1670,7 @@ hash = "b1be0ffe158f08a7d4ddc9db760eef5f3bc6231061803bea4f1034ced49ab135"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/028AB66FF504A9BC.snbt"
-hash = "ce59c20d3d5f3d55861a32a9fdf55f15eed72d09264610e646b02d2b0a34d80d"
+hash = "915a818b5ff1e8d0c0b658b51cb7a29706b39569a79ffa81634f865a8da74cbc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/046724C96F783FC2.snbt"
@@ -1693,8 +1693,12 @@ file = "config/ftbquests/quests/chapters/0C47ABD5DF78C460.snbt"
 hash = "faedec81d98340b3991f2d4899deeb52a87b23a5823942abf20f8bc88443c607"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/142AC829C9062F15.snbt"
+hash = "7c6ceb78b67fb3ec22d0997e5d2e0833ab958bc0b45fde568493d925a011eaad"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/15B8D9F4A2A19BFA.snbt"
-hash = "40d163e5eb129ec0ff7156fe44edb9f18f8c41b591e91bf977d481ed463c547b"
+hash = "8620341fb5f3cca8d64d4e67a4e8ca0f344e52b8c6745f2208c5375511250293"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/177DD3C4E2D1113C.snbt"
@@ -1702,7 +1706,7 @@ hash = "dddc2958bf478ffac2a1cb1823e4edae0ae09f697c61bbb55f96d2fe201a8f5c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1E8D7AF132D696EC.snbt"
-hash = "0cd72942d03a12eefbda07aded4512aeb585640c9e85ae4884f70355d0959a0c"
+hash = "22cc588dc37aea99e8457b645912ce5d7a875f790d182ca50e002c05dc45b436"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1FD18D8B41761626.snbt"
@@ -1710,7 +1714,7 @@ hash = "740f3072e6c337e23c91c4d22a04e1eba23a992c53b9a00e33b6871a25c172eb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2C8B1E40224C9A0C.snbt"
-hash = "4fe43bc7f0f7185dcbd814e6b9a7249740bbee2a02219c92adaede2be268cea0"
+hash = "eac3a734650ee4e4b560b657265eb2b120ddc5e6b8ea84811ad4545a889ab320"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2CEAD5605C416218.snbt"
@@ -1722,11 +1726,11 @@ hash = "eef87de54d36c03a578298eb300f80e93ad1abfc7864f001323b965e3de9536f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/418C24A6E3A8BE97.snbt"
-hash = "142f5e3d8f5140fb7bae17ebb903fff28db96a9f72cd9a3d99edc508da11693d"
+hash = "b97f2e481fdb04eb8c0e0dec1b3f864223dedfd56db4eb97bb194ee9fbf74ab7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4408EF6F9E2E1624.snbt"
-hash = "a3f588d95f819b426031297c8990eb0eaa1257444904befb6e67bc70b1cded8c"
+hash = "53efe166c686c6787806dcb0500ea137b99e02a46a9118b82b1f7a2d9b8bf78c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/449FB885B9E16D50.snbt"
@@ -1734,11 +1738,11 @@ hash = "aa3bcd460a7ad5b6b4e6153e937b7295da1ea362d17aa223e31715fdce1adc22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/455DE2663D19EB56.snbt"
-hash = "8c558e67e1462fa9b9cf7fbfdd9d1b38d56bd69103aa10c4b3b941afc49fb5b7"
+hash = "0b859a801675f8401474bf1ef6ac4dc6e6123062dbebc41ac878a59a98c862e1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4A4420704BDBEA5D.snbt"
-hash = "e9687ca179ea841ffde3fdf94d1fdc3b81a1818ed61cccef4c0d9f5d9e1f7df1"
+hash = "9920e35fb078166260c00d07091c40a4cc0089071d3b83d84563e5dbd440de0f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/4EE5451097565A1A.snbt"
@@ -1770,7 +1774,7 @@ hash = "7d3fefc3ccb070c907d736ca6429b14172e33e10618e549acca0c2df100cef95"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "2cab07525f8e1bbce8e01ddce6ad02da2a3a7ead9f3b4a3504b8e6f647f6de20"
+hash = "418e39c8eece8fc7e0deb2019ca9fe64df00e3773d3b622159865eb90ea4e073"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -1798,7 +1802,7 @@ hash = "ccb508ab9ebe681863cb4d6f58276a1bd40ac4748936dd43035a241d9594dd0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
-hash = "9a98542a399bab9b46920b4e5e8b55e1b73085ec1b7cc2e8c6ba985a9e1a4143"
+hash = "35fe9395a433fa9901dca9ac915d5431a7bf2bac4cfeb61cfbaa723ab62cb3a4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2610,7 +2614,7 @@ hash = "684816927033626b990f8e277a43c0e24f6ef650cb38f9fee935f974fffd7392"
 
 [[files]]
 file = "defaultconfigs/create-server.toml"
-hash = "f68912e1a191e7237143cbe0f04ba2bfdaeb7b3625ad43f1439aed7a4595cf08"
+hash = "204e428a2e6980f0826671469d7749089d02c974ad0647bb68e6e7cc8f282834"
 
 [[files]]
 file = "defaultconfigs/createdieselgenerators-server.toml"
@@ -2731,10 +2735,6 @@ hash = "8f00a36243b8030a4c0af57ecd65ec279ff035d90ae1cadbc47347f640095f44"
 [[files]]
 file = "hotai/weather2/weathersystem/storm/StormObject.badiff"
 hash = "0601afcf754b121bd95b7a450fe3dfd5641fc2d8dea04db107eac68be23740dd"
-
-[[files]]
-file = "hs_err_pid27516.log"
-hash = "6eaa747902d83872a103c4f1c97d44c3eb3fc7e5898074e7b5bf770a3e55ef7f"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -17478,7 +17478,7 @@ hash = "fcee01748af9a8c6d26d2f3a466759c3f64bef851b6a5e5def0508b2e38f719a"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtceu.js"
-hash = "b98aeef69f70162b87cf4227d458ba65e5eea8e1d4403a7cb0e1b72b7225155f"
+hash = "c5261c0d590dadd54c6642f5c63e127c83c477ecbb677db3c394d3031dbb467f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/gtmthings.js"
@@ -17627,10 +17627,6 @@ hash = "f4d8faf208b6f55f2899b44010856ccad1b9893c864d02d5717506791d80474c"
 [[files]]
 file = "kubejs/startup_scripts/src/test.js"
 hash = "93f58588561fb112e887dfe8490da98afd1f599c3e16a183b1f269b31a8b25bb"
-
-[[files]]
-file = "mods/CTNH-Core-1.20.1-1.0.13.jar"
-hash = "0a8a840d5240e0e8e4e89e30432bc47417a094360d51c2e91566f037de392e0e"
 
 [[files]]
 file = "mods/achievements-optimizer.pw.toml"
@@ -17973,12 +17969,19 @@ hash = "0153a3f2bb0d657b4754ddfac78c1f3418de14a9f75ff17e607b6225ba830395"
 metafile = true
 
 [[files]]
-file = "mods/ctnhbio-0.9.0.jar"
-hash = "e16274de72f85987355bf413e1759c2e153d761b05ecb0816d1e539bdd3be58b"
+file = "mods/ct.pw.toml"
+hash = "fb592e8659e85153975243f53ce78ae510f7413ed07d6285f2a36112e307db10"
+metafile = true
 
 [[files]]
-file = "mods/ctpp-0.0.9.jar"
-hash = "1e2dac2fb7689de8f37f1b621289cdc47f53cb3d06857927623f309550c4a7c8"
+file = "mods/ctnh-bio.pw.toml"
+hash = "184dba5f8493fb2f7364f68ddf76afdbc0350e1968aaf31dff7833424c4a1b54"
+metafile = true
+
+[[files]]
+file = "mods/ctnh-core.pw.toml"
+hash = "5615b47fdb5b0d59fe62484a2cc0459c49b8e6214df9db3bac69893c3ca4df4b"
+metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
@@ -18607,7 +18610,7 @@ metafile = true
 
 [[files]]
 file = "mods/rehooked.pw.toml"
-hash = "092970eb041cf812f718d6761ac153e83327a6684d9154d3988cce86f31b3836"
+hash = "072c186c33fe564e4c49f6f1bf65f5b0efa28256d450edd922e1961b07e2a812"
 metafile = true
 
 [[files]]
@@ -18632,7 +18635,7 @@ metafile = true
 
 [[files]]
 file = "mods/sakura-tinker.pw.toml"
-hash = "0d4284f4e956c9238ce52cd35f576eef99184d8c228827348e944b1b28e74a42"
+hash = "555261f89af7d2ed5c9d7d366a9aa065463e433373251f2c3915eb4a64055abd"
 metafile = true
 
 [[files]]
@@ -18717,7 +18720,7 @@ metafile = true
 
 [[files]]
 file = "mods/tconplanner.pw.toml"
-hash = "f4a92927c7a4cbc444950769c733fd2e2bacc6eb1fafeac6dea899c505aa3300"
+hash = "84f3065aabf1c746a83adc9d23f796abcdc6605d021e268d42079bde3b435f49"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "CTNH Bio"
+filename = "ctnhbio-0.9.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b319c14b4918c1e6f292bdeb9fd062442f4afff4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6926998
+project-id = 1333825
