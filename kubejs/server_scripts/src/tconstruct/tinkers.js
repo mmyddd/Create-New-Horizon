@@ -9,7 +9,7 @@
 ServerEvents.tags('minecraft:fluid', event => {
     // 标签id，流体id
 	let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
-                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag']
+                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag', 'steel']
 	fluidmaterials.forEach(fluidmaterial => {
 		event.add(`forge:molten_${fluidmaterial}`, `gtceu:${fluidmaterial}`)
 	})

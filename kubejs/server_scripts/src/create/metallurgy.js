@@ -274,3 +274,9 @@ ServerEvents.recipes(event => {
         50
     )
 })
+
+ metallurgy(event, `gtceu:rubber_ingot`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "superheated")
+ //玻璃
+ServerEvents.recipes(event => {
+    metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `tconstruct:molten_glass`, "amount": 125}],"heated")
+})
