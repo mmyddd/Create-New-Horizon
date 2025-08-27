@@ -19,36 +19,29 @@ ServerEvents.recipes(event => {
     event.recipes.tconstruct.casting_table(
 		'gtceu:andesite_alloy_ingot', 
 		Fluid.of('gtceu:andesite_alloy', 144), 
-		'createmetallurgy:graphite_ingot_mold', 
+		'tconstruct:ingot_cast', 
 		false, 90
-	)
-
-    event.recipes.tconstruct.casting_table(
-		'gtceu:andesite_alloy_block', 
-		Fluid.of('gtceu:andesite_alloy', 1296), 
-		"kubejs:graphite_block_mold", 
-		false, 120
 	)
 
 	event.recipes.tconstruct.casting_table(
 		'createmetallurgy:foundry_unit',
 		Fluid.of('gtceu:wrought_iron', 288), 
 		'createdieselgenerators:distillation_controller', 
-		false, 90
+		true, 90
 	)
 
 	event.recipes.tconstruct.casting_table(
 		'gtceu:rubber_ingot', 
 		Fluid.of('gtceu:rubber', 144), 
-		'createmetallurgy:graphite_ingot_mold', 
+		'tconstruct:ingot_cast', 
 		false, 90
 	)
-
-    event.recipes.tconstruct.casting_table(
-		'gtceu:rubber_block', 
-		Fluid.of('gtceu:rubber', 1296),
-		"kubejs:graphite_block_mold", 
-		false, 120
+	
+	event.recipes.tconstruct.casting_table(
+		'gtceu:snow_steel_ingot', 
+		Fluid.of('gtceu:snow_steel', 144), 
+		'tconstruct:ingot_cast', 
+		false, 90
 	)
 })
 //合金

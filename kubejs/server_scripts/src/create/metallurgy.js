@@ -224,8 +224,6 @@ ServerEvents.recipes(event => {
     //对安山合金粉的处理
     event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_dust', 90, 'heated')
     event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_ingot', 90, 'superheated')
-    event.recipes.createmetallurgy.casting_in_table('gtceu:andesite_alloy_ingot', [Fluid.of('gtceu:andesite_alloy', 144), 'createmetallurgy:graphite_ingot_mold'], 90)
-    event.recipes.createmetallurgy.casting_in_basin('gtceu:andesite_alloy_block', Fluid.of('gtceu:andesite_alloy', 1296), 120)
     
     remove_recipes_id(event, ['create:crushing/raw_copper'])
     remove_recipes_output(event, ['create:crushed_raw_lead',
@@ -240,8 +238,6 @@ ServerEvents.recipes(event => {
                                   'create:crushed_raw_tin',
                                   'create:crushed_raw_nickel'])
     
-    event.recipes.createmetallurgy.casting_in_table('createmetallurgy:foundry_unit',
-        [Fluid.of('gtceu:wrought_iron', 288), 'createdieselgenerators:distillation_controller'], 90)
 })
 
 // 熔铸多方块

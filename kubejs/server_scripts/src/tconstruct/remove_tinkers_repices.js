@@ -25,7 +25,21 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/melting/metal/iron/chain_leggings",
         "tconstruct:smeltery/melting/metal/iron/ore_singular",
         "tconstruct:smeltery/melting/metal/iron/raw",
-        "tconstruct:smeltery/melting/metal/iron/raw_block"
+        "tconstruct:smeltery/melting/metal/iron/raw_block",
+        //容器灌注配方
+        "tconstruct:smeltery/casting/filling/scorched_ingot_gauge",
+        "tconstruct:smeltery/casting/filling/scorched_ingot_tank",
+        "tconstruct:smeltery/casting/filling/scorched_fuel_gauge",
+        "tconstruct:smeltery/casting/filling/scorched_fuel_tank",
+        "tconstruct:smeltery/casting/filling/scorched_lantern_full",
+        "tconstruct:smeltery/casting/filling/scorched_lantern_pixel",
+        "tconstruct:smeltery/casting/filling/seared_ingot_tank",
+        "tconstruct:smeltery/casting/filling/seared_ingot_gauge",
+        "tconstruct:smeltery/casting/filling/seared_fuel_gauge",
+        "tconstruct:smeltery/casting/filling/seared_fuel_tank",
+        "tconstruct:smeltery/casting/filling/seared_lantern_full",
+        "tconstruct:smeltery/casting/filling/seared_lantern_pixel"
+
 
     ])
 })

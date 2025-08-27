@@ -5,7 +5,7 @@
 	group: "4CD84F8DB1FF8B7E"
 	icon: "tconstruct:smeltery_controller"
 	id: "455DE2663D19EB56"
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -94,22 +94,11 @@
 			y: 2.5d
 		}
 		{
-			id: "6437A47B74298885"
-			tasks: [{
-				id: "13C72749A12DE85B"
-				item: "createmetallurgy:graphite_ingot_mold"
-				type: "item"
-			}]
-			title: "石墨铸模"
-			x: -2.5d
-			y: 1.5d
-		}
-		{
 			dependencies: [
-				"6437A47B74298885"
 				"6FB5F4B281C0B690"
-				"1183B82186BF5487"
+				"3509D7B8E361DF68"
 			]
+			dependency_requirement: "all_started"
 			id: "3D91D17CA96AA93D"
 			tasks: [{
 				id: "7C245D2798CDB057"
@@ -118,16 +107,6 @@
 			}]
 			x: -1.5d
 			y: 2.5d
-		}
-		{
-			id: "1183B82186BF5487"
-			tasks: [{
-				id: "1087925FFB468F16"
-				item: "tconstruct:seared_table"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.5d
 		}
 		{
 			dependencies: [
