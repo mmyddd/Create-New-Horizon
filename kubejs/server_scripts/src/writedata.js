@@ -8,10 +8,25 @@ ServerEvents.recipes(event => {
         const fluidMaterials = [
             'precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
             'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 
-            'manganese', 'slag', 'steel', 'aluminum', 'uranium'
+            'manganese', 'slag', 'steel', 'aluminum', 'uranium', 'glass', 'invar'
         ];
 
         const prefixes = ['forge:', 'tconstruct:'];
+
+        // 处理顶层 fluid.tag 字段
+        if (originalJson && originalJson.fluid && originalJson.fluid.tag) {
+            prefixes.forEach(prefix => {
+                fluidMaterials.forEach(material => {
+                    let tictag = prefix + 'molten_' + material
+                    let gttag = 'forge:' + material
+                    if (originalJson.fluid.tag == tictag) {
+                        originalJson.fluid.tag = gttag
+                        modified = true
+                        console.log(`已将 ${tictag} 替换为 ${gttag} 在 fluid.tag 中`)
+                    }
+                })
+            })
+        }
 
         // 处理顶层 result 字段 (tag 和 fluid)
         if (originalJson && originalJson.result) {
