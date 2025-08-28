@@ -6,8 +6,8 @@
 			"fluid": "tconstruct:seared_stone"
 		},
 		{
-			"amount": 3000,
-			"fluid": "tconstruct:molten_glass"
+			"amount": 432,
+			"fluid": "gtceu:glass"
 		}
 	],
 	"ingredient": {

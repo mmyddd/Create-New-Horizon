@@ -1,18 +1,18 @@
 {
-  "type": "tconstruct:melting",
-  "byproducts": [
-    {
-      "amount": 5000,
-      "fluid": "tconstruct:molten_glass"
-    }
-  ],
-  "ingredient": {
-    "item": "minecraft:beacon"
-  },
-  "result": {
-    "amount": 3000,
-    "fluid": "tconstruct:molten_obsidian"
-  },
-  "temperature": 1000,
-  "time": 303
+	"type": "tconstruct:melting",
+	"byproducts": [
+		{
+			"amount": 720,
+			"fluid": "gtceu:glass"
+		}
+	],
+	"ingredient": {
+		"item": "minecraft:beacon"
+	},
+	"result": {
+		"amount": 432,
+		"fluid": "tconstruct:molten_obsidian"
+	},
+	"temperature": 1000,
+	"time": 115
 }

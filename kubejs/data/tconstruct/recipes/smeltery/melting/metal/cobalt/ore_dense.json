@@ -2,7 +2,7 @@
 	"type": "tconstruct:ore_melting",
 	"byproducts": [
 		{
-			"amount": 240,
+			"amount": 2400,
 			"fluid": "tconstruct:molten_diamond",
 			"rate": "gem"
 		}

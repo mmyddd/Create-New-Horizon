@@ -12,11 +12,11 @@
   ],
   "inputs": [
     {
-      "amount": 250,
+      "amount": 36,
       "tag": "tconstruct:molten_obsidian"
     },
     {
-      "amount": 160,
+      "amount": 1600,
       "tag": "tconstruct:molten_diamond"
     },
     {

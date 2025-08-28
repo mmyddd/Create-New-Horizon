@@ -1,19 +1,19 @@
 {
-  "type": "tconstruct:melting",
-  "byproducts": [
-    {
-      "amount": 3000,
-      "fluid": "tconstruct:molten_glass"
-    }
-  ],
-  "ingredient": {
-    "type": "tconstruct:no_container",
-    "item": "tconstruct:seared_ingot_tank"
-  },
-  "result": {
-    "amount": 2400,
-    "fluid": "tconstruct:seared_stone"
-  },
-  "temperature": 600,
-  "time": 134
+	"type": "tconstruct:melting",
+	"byproducts": [
+		{
+			"amount": 432,
+			"fluid": "gtceu:glass"
+		}
+	],
+	"ingredient": {
+		"type": "tconstruct:no_container",
+		"item": "tconstruct:seared_ingot_tank"
+	},
+	"result": {
+		"amount": 2400,
+		"fluid": "tconstruct:seared_stone"
+	},
+	"temperature": 600,
+	"time": 134
 }
