@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cooling_time": 643,
+  "fluid": {
+    "amount": 14400,
+    "tag": "tconstruct:molten_emerald"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/emerald"
+  }
+}

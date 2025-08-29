@@ -9,9 +9,10 @@
 ServerEvents.tags('minecraft:fluid', event => {
     // 标签id，流体id
 	let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
-                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag', 'steel']
+                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag', 'steel', 'aluminum', 'uranium', 'glass', 'invar']
 	fluidmaterials.forEach(fluidmaterial => {
 		event.add(`forge:molten_${fluidmaterial}`, `gtceu:${fluidmaterial}`)
+		event.removeAll(`tconstruct:molten_${fluidmaterial}`)
 	})
 })
 //浇筑
@@ -47,10 +48,10 @@ ServerEvents.recipes(event => {
 //合金
 ServerEvents.recipes(event => {
 	event.recipes.tconstruct.alloy(
-		Fluid.of('tconstruct:molten_brass', 576), 
+		Fluid.of('gtceu:brass', 576), 
 		[
-			Fluid.of('tconstruct:molten_zinc', 432),
-			Fluid.of('tconstruct:molten_copper', 144)
+			Fluid.of('gtceu:zinc', 432),
+			Fluid.of('gtceu:copper', 144)
 		],
 		605
 	)
