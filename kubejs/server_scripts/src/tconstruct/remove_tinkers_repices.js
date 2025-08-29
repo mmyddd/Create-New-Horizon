@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     remove_recipes_id(event, [
         //删除TiC青铜配方
         //"tconstruct:tools/materials/melting/bronze",
-        //"tconstruct:smeltery/alloys/molten_bronze",
+        "tconstruct:smeltery/alloys/molten_bronze",
         ///tconstruct:smeltery\/melting\/metal\/bronze\/(.*)/,
         //删除TiC黄铜配方
         //"tconstruct:tools/materials/melting/plated_slimewood",
