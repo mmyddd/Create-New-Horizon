@@ -269,5 +269,5 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     metallurgy(event, `kubejs:rubber_powder`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "heated")
     metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `gtceu:glass`, "amount": 36}],"heated")
-
 })
+
