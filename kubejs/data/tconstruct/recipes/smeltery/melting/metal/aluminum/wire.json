@@ -7,11 +7,11 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:wires/aluminum"
+		"tag": "forge:wires/aluminium"
 	},
 	"result": {
 		"amount": 72,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 9

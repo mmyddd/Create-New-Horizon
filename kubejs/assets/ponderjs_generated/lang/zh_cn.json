@@ -104,5 +104,10 @@
   "kubejs.ponder.energy_comparate_2.text_4": "现在，它会将FE转化为EU.",
   "kubejs.ponder.energy_comparate_2.text_5": "红色面用于输出EU。",
   "kubejs.ponder.energy_comparate_2.text_6": "绿色面用于输入FE。",
-  "kubejs.ponder.energy_comparate_2.text_7": "链接电线后，它就可以正常工作了。"
+  "kubejs.ponder.energy_comparate_2.text_7": "链接电线后，它就可以正常工作了。",
+  "kubejs.ponder.blaze.header": "如何在不进入下界的情况下生成烈焰人",
+  "kubejs.ponder.blaze.text_1": "一般情况下，我们在进入下界前碰不到烈焰人。",
+  "kubejs.ponder.blaze.text_2": "正常情况下，你需要这样摆放方块生成雪傀儡",
+  "kubejs.ponder.blaze.text_3": "现在你需要把雪块换成铁栏杆，把雕刻南瓜头换成恶魔南瓜头，这样就能生成一个烈焰人供你使用",
+  "kubejs.ponder.blaze.text_4": "注意这是恶魔南瓜头。"
 }

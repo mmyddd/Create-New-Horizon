@@ -7,11 +7,11 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:storage_blocks/aluminum"
+		"tag": "forge:storage_blocks/aluminium"
 	},
 	"result": {
 		"amount": 1296,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 141

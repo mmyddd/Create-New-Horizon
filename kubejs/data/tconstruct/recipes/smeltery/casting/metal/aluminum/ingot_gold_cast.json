@@ -12,9 +12,9 @@
 	"cooling_time": 47,
 	"fluid": {
 		"amount": 144,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"result": {
-		"tag": "forge:ingots/aluminum"
+		"tag": "forge:ingots/aluminium"
 	}
 }

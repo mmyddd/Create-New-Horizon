@@ -7,11 +7,11 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:dusts/aluminum"
+		"tag": "forge:dusts/aluminium"
 	},
 	"result": {
 		"amount": 144,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 35

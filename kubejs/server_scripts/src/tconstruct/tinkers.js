@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
 	//贵金属
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:gold', 32),
-		'minecraft:precious_alloy_ingot',
+		'gtceu:precious_alloy_ingot',
 		800,
 		90
 	)

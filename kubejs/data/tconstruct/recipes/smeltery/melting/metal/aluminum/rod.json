@@ -7,11 +7,11 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:rods/aluminum"
+		"tag": "forge:rods/aluminium"
 	},
 	"result": {
 		"amount": 72,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 9

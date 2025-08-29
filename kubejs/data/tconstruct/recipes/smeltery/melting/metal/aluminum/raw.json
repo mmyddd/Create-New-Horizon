@@ -14,12 +14,12 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:raw_materials/aluminum"
+		"tag": "forge:raw_materials/aluminium"
 	},
 	"rate": "metal",
 	"result": {
 		"amount": 144,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 71

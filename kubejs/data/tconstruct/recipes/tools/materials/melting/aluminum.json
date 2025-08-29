@@ -9,7 +9,7 @@
 	"input": "tconstruct:aluminum",
 	"result": {
 		"amount": 144,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425
 }

@@ -13,9 +13,9 @@
 	"cooling_time": 33,
 	"fluid": {
 		"amount": 72,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"result": {
-		"tag": "forge:rods/aluminum"
+		"tag": "forge:rods/aluminium"
 	}
 }

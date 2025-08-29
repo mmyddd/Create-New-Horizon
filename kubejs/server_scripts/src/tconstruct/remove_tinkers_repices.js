@@ -23,9 +23,6 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/melting/metal/iron/chain_chestplate",
         "tconstruct:smeltery/melting/metal/iron/chain_helmet",
         "tconstruct:smeltery/melting/metal/iron/chain_leggings",
-        "tconstruct:smeltery/melting/metal/iron/ore_singular",
-        "tconstruct:smeltery/melting/metal/iron/raw",
-        "tconstruct:smeltery/melting/metal/iron/raw_block",
         //容器灌注配方
         "tconstruct:smeltery/casting/filling/scorched_ingot_gauge",
         "tconstruct:smeltery/casting/filling/scorched_ingot_tank",
@@ -39,10 +36,6 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/casting/filling/seared_fuel_tank",
         "tconstruct:smeltery/casting/filling/seared_lantern_full",
         "tconstruct:smeltery/casting/filling/seared_lantern_pixel",
-        //铂、镍
-        "tconstruct:smeltery/melting/metal/nickel/raw_block",
-        "tconstruct:smeltery/melting/metal/nickel/ore_singular",
-        "tconstruct:smeltery/melting/metal/nickel/raw",
         //钨
         "tconstruct:tools/materials/melting/tungsten",
         "tconstruct:smeltery/alloys/molten_tungsten",
@@ -60,4 +53,23 @@ ServerEvents.recipes(event => {
         //铁粒
         "tconstruct:smeltery/melting/metal/iron/nugget"        
     ])
+})
+//熔铸炉矿物配方
+ServerEvents.recipes(event => {
+    // 标签id，流体id
+	let fluidmaterials = ['diamond', 'emerald', 'precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
+                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag', 'steel', 
+                         'aluminum', 'uranium', 'glass', 'invar', 'platinum']
+	fluidmaterials.forEach(fluidmaterial => {
+		remove_recipes_id(event, [
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/raw`,
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/raw_block`,
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/ore_singular`,
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/ore_dense`,
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/ore_sparse`,
+            `tconstruct:smeltery/melting/metal/${fluidmaterial}/geore`,
+            'tconstruct:smeltery/melting/metal/gold/gilded_blackstone',
+            'tconstruct:smeltery/melting/metal/gold/nether_gold_ore'
+        ])
+	})
 })

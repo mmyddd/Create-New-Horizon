@@ -7,11 +7,11 @@
 		}
 	],
 	"ingredient": {
-		"tag": "forge:ingots/aluminum"
+		"tag": "forge:ingots/aluminium"
 	},
 	"result": {
 		"amount": 144,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"temperature": 425,
 	"time": 47

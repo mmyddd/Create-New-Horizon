@@ -13,9 +13,9 @@
 	"cooling_time": 94,
 	"fluid": {
 		"amount": 576,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"result": {
-		"tag": "forge:gears/aluminum"
+		"tag": "forge:gears/aluminium"
 	}
 }

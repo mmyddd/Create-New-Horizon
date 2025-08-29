@@ -9,9 +9,9 @@
 	"cooling_time": 141,
 	"fluid": {
 		"amount": 1296,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"result": {
-		"tag": "forge:storage_blocks/aluminum"
+		"tag": "forge:storage_blocks/aluminium"
 	}
 }

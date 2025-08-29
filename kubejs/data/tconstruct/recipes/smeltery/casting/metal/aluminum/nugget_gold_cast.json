@@ -12,9 +12,9 @@
 	"cooling_time": 16,
 	"fluid": {
 		"amount": 16,
-		"tag": "forge:aluminum"
+		"tag": "forge:aluminium"
 	},
 	"result": {
-		"tag": "forge:nuggets/aluminum"
+		"tag": "forge:nuggets/aluminium"
 	}
 }
