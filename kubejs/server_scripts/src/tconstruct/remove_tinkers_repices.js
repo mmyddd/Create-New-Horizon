@@ -56,6 +56,8 @@ ServerEvents.recipes(event => {
         //玫瑰金合金配方
         "tconstruct:smeltery/alloys/molten_rose_gold",
         //殷钢合金配方
-        "tconstruct:smeltery/alloys/molten_invar"
+        "tconstruct:smeltery/alloys/molten_invar",
+        //铁粒
+        "tconstruct:smeltery/melting/metal/iron/nugget"        
     ])
 })

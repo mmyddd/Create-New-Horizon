@@ -44,6 +44,14 @@ ServerEvents.recipes(event => {
 		'tconstruct:ingot_cast', 
 		false, 90
 	)
+
+	event.recipes.tconstruct.casting_table(
+		'gtceu:wrought_iron_ingot', 
+		Fluid.of('gtceu:wrought_iron', 144), 
+		'tconstruct:ingot_cast', 
+		false, 90
+	)
+
 })
 //合金
 ServerEvents.recipes(event => {
@@ -58,21 +66,31 @@ ServerEvents.recipes(event => {
 })
 //融化
 ServerEvents.recipes(event => {
+	//熔融粘土
 	event.recipes.tconstruct.melting(
 		Fluid.of("tconstruct:molten_clay", 125),
 		"gtceu:fireclay_dust",
 		1000,
 		200
 	)
+	//橡胶
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:rubber', 144),
 		'kubejs:rubber_powder',
 		400,
 		90
 	)
+	//玻璃
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:glass', 72),
 		'gtceu:glass_dust',
+		800,
+		90
+	)
+	//锻铁
+	event.recipes.tconstruct.melting(
+		Fluid.of('gtceu:wrought_iron', 16),
+		'minecraft:iron_nugget',
 		800,
 		90
 	)
