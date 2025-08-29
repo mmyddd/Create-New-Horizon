@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
 		90
 	)
 	event.recipes.tconstruct.melting(
-		Fluid.of('tconstruct:molten_glass', 500),
+		Fluid.of('gtceu:glass', 72),
 		'gtceu:glass_dust',
 		800,
 		90

@@ -38,8 +38,24 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/casting/filling/seared_fuel_gauge",
         "tconstruct:smeltery/casting/filling/seared_fuel_tank",
         "tconstruct:smeltery/casting/filling/seared_lantern_full",
-        "tconstruct:smeltery/casting/filling/seared_lantern_pixel"
-
-
+        "tconstruct:smeltery/casting/filling/seared_lantern_pixel",
+        //铂、镍
+        "tconstruct:smeltery/melting/metal/nickel/raw_block",
+        "tconstruct:smeltery/melting/metal/nickel/ore_singular",
+        "tconstruct:smeltery/melting/metal/nickel/raw",
+        //钨
+        "tconstruct:tools/materials/melting/tungsten",
+        "tconstruct:smeltery/alloys/molten_tungsten",
+        /tconstruct:smeltery\/melting\/metal\/tungsten\/(.*)/,
+        //饿
+        "tconstruct:tools/materials/melting/osmium",
+        "tconstruct:smeltery/alloys/molten_osmium",
+        /tconstruct:smeltery\/melting\/metal\/osmium\/(.*)/,
+        //琥珀金合金配方
+        "tconstruct:smeltery/alloys/molten_electrum",
+        //玫瑰金合金配方
+        "tconstruct:smeltery/alloys/molten_rose_gold",
+        //殷钢合金配方
+        "tconstruct:smeltery/alloys/molten_invar"
     ])
 })
