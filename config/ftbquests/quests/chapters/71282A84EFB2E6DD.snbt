@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "bloodmagic:altar"
 	id: "71282A84EFB2E6DD"
-	order_index: 1
+	order_index: 2
 	quest_links: [
 		{
 			id: "201E8191E9CFE196"

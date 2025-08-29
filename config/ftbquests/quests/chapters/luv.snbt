@@ -872,7 +872,7 @@
 			subtitle: "最后一种维护仓？"
 			tasks: [{
 				id: "0862D897BCC5BDAB"
-				item: "gtceu:sterile_cleanroom_maintenance_hatch"
+				item: "ctnhcore:sterile_cleanroom_maintenance_hatch"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1115,10 +1115,7 @@
 			y: -13.0d
 		}
 		{
-			dependencies: [
-				"4A412A967394C59E"
-				"45EF42ADC599589E"
-			]
+			dependencies: ["45EF42ADC599589E"]
 			hide_details_until_startable: false
 			id: "1E79D7B65D6DCECF"
 			rewards: [{

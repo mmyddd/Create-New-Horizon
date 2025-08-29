@@ -5,5 +5,5 @@
 		"amount": 144,
 		"tag": "forge:glass"
 	},
-	"result": "tconstruct:clear_glass"
+	"result": "minecraft:glass"
 }

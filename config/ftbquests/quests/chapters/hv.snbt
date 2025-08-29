@@ -670,42 +670,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"6F12F4AE6F3F9007"
-				"35205D5CBE5A1498"
-			]
-			id: "3A77F81F2F6E792A"
-			subtitle: "{ftbquests.chapter.hv.quest54.subtitle}"
-			tasks: [{
-				id: "3E805DF6AD913252"
-				item: "kubejs:platinum_metal_catalyst"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -6.5d
-		}
-		{
-			id: "35205D5CBE5A1498"
-			tasks: [{
-				id: "52D95AAD5D2A429D"
-				item: "kubejs:platinum_metal_catalyst_shard1"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -5.0d
-		}
-		{
-			id: "6F12F4AE6F3F9007"
-			tasks: [{
-				id: "4E5D92FC91DF2EF4"
-				item: "kubejs:platinum_metal_catalyst_shard2"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -8.0d
-		}
-		{
 			dependencies: ["36968F23015BC87A"]
+			description: ["    独属于你的虚空世界"]
 			id: "25DAE6D032C050D7"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -713,6 +679,8 @@
 				table_id: 723892772024061161L
 				type: "random"
 			}]
+			shape: "octagon"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.hv.quest58.subtitle}"
 			tasks: [{
 				id: "20A0E9B6A5B2D2F0"
@@ -733,8 +701,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest59.title}"
-			x: 11.5d
-			y: -4.0d
+			x: 15.0d
+			y: -2.0d
 		}
 		{
 			id: "2D0E2C949FAD45B3"
@@ -747,8 +715,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest60.title}"
-			x: 9.5d
-			y: -9.0d
+			x: 17.0d
+			y: -4.0d
 		}
 		{
 			id: "2CF0374F90D4B470"
@@ -761,8 +729,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest61.title}"
-			x: 9.5d
-			y: -12.0d
+			x: 15.0d
+			y: -10.0d
 		}
 		{
 			id: "06D3380949C950AB"
@@ -775,8 +743,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest70.title}"
-			x: 2.5d
-			y: -7.5d
+			x: 17.5d
+			y: -12.0d
 		}
 		{
 			id: "68D549689E87C106"
@@ -789,8 +757,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest75.title}"
-			x: 7.5d
-			y: -7.5d
+			x: 11.0d
+			y: -6.0d
 		}
 		{
 			id: "2B5737AFD88F1BA5"
@@ -864,8 +832,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.hv.quest81.title}"
-			x: 11.5d
-			y: -9.0d
+			x: 15.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["29C2D8D206649CE5"]
@@ -1382,6 +1350,7 @@
 				"4F78544FBE794648"
 				"79CF01CFCC2FF596"
 			]
+			description: ["    如果你发展了血魔法，还可以通过制作凋零电动刷怪笼来生产下界之星"]
 			id: "0F8A1D38DCB6CCE1"
 			subtitle: "{ftbquests.chapter.hv.quest125.subtitle}"
 			tasks: [{
@@ -1529,7 +1498,7 @@
 				item: "gtceu:platinum_group_residue_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
@@ -1556,7 +1525,7 @@
 				item: "gtceu:gold_platinum_palladium_acid_solution_bucket"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -1583,7 +1552,7 @@
 				item: "gtceu:denitrated_gold_platinum_palladium_solution_bucket"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -4.0d
 		}
 		{
@@ -1594,7 +1563,7 @@
 				item: "gtceu:ferrous_sulfate_bucket"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -2.0d
 		}
 		{
@@ -1622,7 +1591,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 7.0d
 			y: -4.0d
 		}
 		{
@@ -1640,7 +1609,7 @@
 				item: "gtceu:ammonium_chloroplatinate_dust"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -1667,7 +1636,7 @@
 				item: "gtceu:chloropalladic_acid_mixture_bucket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -1685,7 +1654,7 @@
 				item: "gtceu:diamminedichloropalladium_dust"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -1703,7 +1672,7 @@
 				item: "gtceu:sponge_platinum_dust"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -1721,8 +1690,8 @@
 				item: "gtceu:sponge_palladium_dust"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.0d
+			x: 13.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1751,7 +1720,7 @@
 				item: "gtceu:platinum_ingot"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: -2.0d
 		}
 		{
@@ -1772,8 +1741,8 @@
 				item: "gtceu:palladium_ingot"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -7.5d
+			x: 15.0d
+			y: -4.0d
 		}
 		{
 			id: "7EE2773773CDBF98"
@@ -1783,8 +1752,8 @@
 				item: "gtceu:litharge_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1813,7 +1782,7 @@
 				item: "gtceu:noble_lead_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -1831,7 +1800,7 @@
 				item: "gtceu:enriched_inert_mixture_dust"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -1843,8 +1812,8 @@
 				item: "gtceu:nitric_leach_solution_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			id: "19F7CBF32FC5D8DB"
@@ -1853,8 +1822,8 @@
 				item: "gtceu:sodium_bisulfate_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.0d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1874,8 +1843,8 @@
 				item: "gtceu:rhodium_sulfate_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -7.5d
+			x: 2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["1C54BF343868F833"]
@@ -1892,8 +1861,8 @@
 				item: "gtceu:rhodium_sulfate_solution_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -9.0d
+			x: 2.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["20704AF21D303F9A"]
@@ -1909,8 +1878,8 @@
 				item: "gtceu:rhodium_hydroxide_dust"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.5d
+			x: 2.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["60A4ACC99FEDDF41"]
@@ -1936,7 +1905,7 @@
 				item: "gtceu:chlororhodic_acid_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 5.0d
 			y: -12.0d
 		}
 		{
@@ -1963,8 +1932,8 @@
 				item: "gtceu:ammonium_chlororhodate_solution_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -13.5d
+			x: 7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["7F780130445951BA"]
@@ -1980,8 +1949,8 @@
 				item: "gtceu:concentrated_ammonium_chlororhodate_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -13.5d
+			x: 9.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["34BC167611A9C4B8"]
@@ -1997,7 +1966,7 @@
 				item: "gtceu:ammonium_chlororhodate_dust"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 11.0d
 			y: -12.0d
 		}
 		{
@@ -2014,8 +1983,8 @@
 				item: "gtceu:sponge_rhodium_dust"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: 13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -2043,8 +2012,8 @@
 				item: "gtceu:rhodium_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -9.0d
+			x: 15.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["748BAEA159FB6767"]
@@ -2055,7 +2024,7 @@
 				item: "gtceu:precious_metal_mixture_dust"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: -6.0d
 		}
 		{
@@ -2067,7 +2036,7 @@
 				item: "gtceu:iridium_dioxide_dust"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 7.0d
 			y: -6.0d
 		}
 		{
@@ -2089,7 +2058,7 @@
 				item: "gtceu:iridium_dust"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: -6.0d
 		}
 		{
@@ -2108,7 +2077,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			description: ["但是你能获取的利益也是极高的"]
@@ -2147,7 +2116,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["46505EA0DA28C660"]
@@ -2163,8 +2132,8 @@
 				item: "gtceu:ruthenium_tetroxide_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -10.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["46505EA0DA28C660"]
@@ -2180,8 +2149,8 @@
 				item: "gtceu:osmium_tetroxide_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -9.0d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0C3A7C7254CA643D"]
@@ -2207,8 +2176,8 @@
 				item: "gtceu:chlororuthenic_acid_gas_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -12.0d
+			x: 9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["77295D35CE979A6E"]
@@ -2234,8 +2203,8 @@
 				item: "gtceu:chlorosmic_acid_gas_bucket"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.5d
+			x: 9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["33C0E2DC9A2C7BE3"]
@@ -2252,8 +2221,8 @@
 				item: "gtceu:ammonium_chlorosmate_dust"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -10.5d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["4FB4EDF52687C108"]
@@ -2270,8 +2239,8 @@
 				item: "gtceu:ammonium_chlororuthenate_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.0d
+			x: 11.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -2292,8 +2261,8 @@
 				item: "gtceu:ruthenium_dust"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -12.0d
+			x: 13.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -2321,8 +2290,8 @@
 				item: "gtceu:osmium_dust"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -10.5d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			id: "018B70964B9E17DD"
@@ -2332,8 +2301,8 @@
 				title: "这两条线的处理方式相同，说明了什么？"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -10.5d
+			x: 7.0d
+			y: -9.0d
 		}
 	]
 	title: "{ftbquests.chapter.hv.title}"

@@ -63,7 +63,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -976,7 +976,7 @@
 			subtitle: "一台更比三台强"
 			tasks: [{
 				id: "73BC2FA2FF8469C3"
-				item: "ctnhcore:wideparticleaccelerator"
+				item: "ctnhcore:wide_particle_accelerator"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1025,7 +1025,7 @@
 			subtitle: "who r u"
 			tasks: [{
 				id: "24B87356C55140CC"
-				item: "gtceu:ultimate_combustion_engine"
+				item: "ctnhcore:ultimate_combustion_engine"
 				type: "item"
 			}]
 			x: -8.0d

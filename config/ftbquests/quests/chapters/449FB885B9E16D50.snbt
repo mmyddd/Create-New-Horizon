@@ -5,7 +5,7 @@
 	group: "32DB92B5A6E4493B"
 	icon: "botania:mana_pylon"
 	id: "449FB885B9E16D50"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

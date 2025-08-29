@@ -944,7 +944,7 @@
 			id: "702514667DE21D74"
 			tasks: [{
 				id: "32DE4A687636EFC6"
-				item: "ctnhcore:orange_metal_catalyst"
+				item: "ctnhcore:orange_metal"
 				type: "item"
 			}]
 			x: -11.5d

@@ -349,10 +349,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3EE20D3AB81673F0"
-				"401CC51AA97A3DD2"
-			]
+			dependencies: ["3EE20D3AB81673F0"]
 			id: "0CB7F4685CAF107A"
 			tasks: [{
 				id: "00962930FC942B51"
@@ -363,10 +360,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"3EE20D3AB81673F0"
-				"401CC51AA97A3DD2"
-			]
+			dependencies: ["3EE20D3AB81673F0"]
 			id: "24E10449A4A11554"
 			tasks: [{
 				id: "74596E7779954210"
@@ -1038,10 +1032,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"5E6E9A02C455FDB7"
-				"401CC51AA97A3DD2"
-			]
 			id: "0C56A770E0AA5FE2"
 			tasks: [{
 				id: "1E01BFAA13B2358E"

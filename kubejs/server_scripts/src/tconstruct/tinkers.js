@@ -91,15 +91,15 @@ ServerEvents.recipes(event => {
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:wrought_iron', 16),
 		'minecraft:iron_nugget',
-		800,
-		90
+		600,
+		40
 	)
 	//贵金属
 	event.recipes.tconstruct.melting(
 		Fluid.of('gtceu:gold', 32),
 		'gtceu:precious_alloy_ingot',
 		800,
-		90
+		40
 	)
 })
 //合成

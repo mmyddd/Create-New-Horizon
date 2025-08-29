@@ -13,7 +13,7 @@
 		}
 	}
 	id: "15B8D9F4A2A19BFA"
-	order_index: 7
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -301,8 +301,8 @@
 				item: "ctnhcore:large_naquadah_reactor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.5d
+			x: 12.0d
+			y: 8.5d
 		}
 		{
 			id: "14D70CD81A9B77A0"
@@ -312,7 +312,7 @@
 				type: "item"
 			}]
 			title: "用以太就能发100W电并省400W电("
-			x: 10.0d
+			x: 12.0d
 			y: 7.0d
 		}
 		{
@@ -484,8 +484,8 @@
 				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			id: "6E4976ECA4949FBE"
@@ -642,6 +642,56 @@
 			}]
 			x: 17.5d
 			y: 2.5d
+		}
+		{
+			id: "35946853DCF9050F"
+			tasks: [{
+				id: "193D0C21E4E8EF0B"
+				item: "ctpp:kinetic_generator"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "4F6F6169955CF2DD"
+			tasks: [{
+				id: "34753B4DEAA126B5"
+				item: "ctpp:windmill_control_center"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "51966223E636D298"
+			tasks: [{
+				id: "3FC96B146B74042E"
+				item: "ctnhcore:big_dam"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "6BA44627043FA783"
+			tasks: [{
+				id: "60F2E18CAE196797"
+				item: "ctnhcore:space_photovoltai_cbase_station"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			id: "571E6FAB38D273F8"
+			tasks: [{
+				id: "45876FE25F0048E4"
+				item: "ctnhcore:hyper_plasma_turbine"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
 		}
 	]
 	title: "{ftbquests.chapter.15B8D9F4A2A19BFA.title}"
