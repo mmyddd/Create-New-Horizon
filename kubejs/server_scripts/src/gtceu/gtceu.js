@@ -1723,7 +1723,6 @@ ServerEvents.recipes(event => {
         .chancedOutput('64x gtceu:raw_coal', 1000, 0)
         .chancedOutput('64x gtceu:raw_diamond', 1000, 0)
         .chancedOutput('64x gtceu:raw_garnierite', 1000, 0)
-        .chancedOutput('64x tetra:geode', 1000, 0)
         .chancedOutput('64x gtceu:raw_calcite', 1000, 0)
         .chancedOutput('64x gtceu:raw_vanadium_magnetite', 1000, 0)
         .chancedOutput('64x gtceu:raw_tantalite', 1000, 0)
