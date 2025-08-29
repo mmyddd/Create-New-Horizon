@@ -12,7 +12,7 @@ terminal:
 ftbPlugin:
   # Enable FTBUltimine on GregTech Ores
   # Default: false
-  enableFTBUltimineOnGTOres: false
+  enableFTBUltimineOnGTOres: true
 
 # Mechanical Machine's Buffer
 kinetic:

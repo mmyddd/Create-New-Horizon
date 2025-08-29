@@ -182,7 +182,9 @@ ServerEvents.recipes(event => {
         "gtceu:shaped/bronze_primitive_blast_furnace",
         "gtceu:smelting/wrought_iron_nugget",
         /gtceu:shaped\/foil_(.*)/,
-        /gtceu:shaped\/spring_(.*)/
+        /gtceu:shaped\/spring_(.*)/,
+        'gtceu:shapeless/block_decompress_ender_eye',
+        'gtceu:forge_hammer/hammer_ender_eye_block_to_gem'
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

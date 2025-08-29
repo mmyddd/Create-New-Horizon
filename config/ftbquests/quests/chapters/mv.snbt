@@ -357,6 +357,7 @@
 				"3E53190CE94A4E38"
 			]
 			dependency_requirement: "one_completed"
+			icon: "minecraft:end_portal_frame"
 			id: "5A55D491F0E9F389"
 			rewards: [
 				{
@@ -369,15 +370,19 @@
 					command: "/gamephase add @p end"
 					elevate_perms: true
 					id: "345886DE08824767"
+					title: "进入末地的权限"
 					type: "command"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "只需要完成一个前置任务就可以做这个任务"
 			tasks: [{
 				id: "7BAD7E832FEF40F0"
 				item: "minecraft:ender_eye"
 				type: "item"
 			}]
+			title: "末地权限"
 			x: 8.0d
 			y: -5.0d
 		}
@@ -613,29 +618,23 @@
 		}
 		{
 			dependencies: ["4DCA7E4E57817E0A"]
-			id: "35FC625257013116"
-			tasks: [{
-				id: "3984FFE4AEFE07F5"
-				item: "botania:ender_air_bottle"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["35FC625257013116"]
+			icon: "aether:aether_portal_frame"
 			id: "415AF3F977F4C3F9"
 			rewards: [{
 				command: "/gamephase add @p aether"
 				elevate_perms: true
 				id: "47B4C1C8E27B98A0"
+				title: "进入天境的权限"
 				type: "command"
 			}]
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "5B98F8342CFB3E30"
 				item: "minecraft:dragon_breath"
 				type: "item"
 			}]
+			title: "天境权限"
 			x: 8.0d
 			y: -2.0d
 		}
@@ -993,6 +992,7 @@
 		}
 		{
 			dependencies: ["063155FDDF799750"]
+			hide_until_deps_complete: true
 			id: "3E53190CE94A4E38"
 			subtitle: "跳过任务线"
 			tasks: [{
@@ -1003,6 +1003,115 @@
 			}]
 			x: 8.0d
 			y: -6.0d
+		}
+		{
+			id: "1F14A82831F5C61B"
+			tasks: [{
+				id: "4B73FBB0F178614C"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "6908B97B403240A1"
+			tasks: [{
+				id: "612A3FCED08C1E67"
+				item: "enderio:soul_binder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F14A82831F5C61B"
+				"1CD250F70B566174"
+			]
+			id: "199C34FF316CDB5D"
+			tasks: [{
+				id: "5DBAB9B5128F3AE7"
+				item: "enderio:ensouled_chassis"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["199C34FF316CDB5D"]
+			id: "2072672E99455E02"
+			tasks: [{
+				id: "77DEABF1AD07241C"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62688FD63BBA12C2"]
+			id: "1CD250F70B566174"
+			tasks: [{
+				id: "7A77BF39C11C0BF6"
+				item: "gtceu:soularium_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"199C34FF316CDB5D"
+				"4B0A7C665D98CEDD"
+			]
+			description: ["    事实上，你还可以通过神化的刷怪笼或者新生魔艺的手段获取怪物掉落。但电动刷怪笼还可以用于HV阶段的屠宰场。"]
+			id: "25F0981E1E4A0E7F"
+			subtitle: "自动刷怪"
+			tasks: [{
+				id: "716733C9922E17A0"
+				item: {
+					Count: 1
+					id: "enderio:powered_spawner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			id: "64B9355875C126ED"
+			subtitle: "gt屠刀可以快速获取头颅"
+			tasks: [{
+				id: "56B2EE6B74321BB0"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64B9355875C126ED"]
+			id: "4B0A7C665D98CEDD"
+			tasks: [{
+				id: "484DFA560F39E5B2"
+				item: "enderio:z_logic_controller"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			id: "62688FD63BBA12C2"
+			tasks: [{
+				id: "2B1ACE5849F7665C"
+				item: "gtceu:mv_alloy_smelter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
 		}
 	]
 	title: "{ftbquests.chapter.mv.title}"

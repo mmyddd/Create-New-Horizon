@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "046724C96F783FC2"
-	group: ""
+	group: "32DB92B5A6E4493B"
 	icon: {
 		Count: 1
 		id: "apotheosis:gem"
@@ -32,7 +32,7 @@
 			y: 3.5d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

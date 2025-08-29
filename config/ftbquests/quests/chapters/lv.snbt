@@ -153,7 +153,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["250C6C8AF08C21F1"]
+			dependencies: ["41E48BCAEAD9D47E"]
 			description: ["{ftbquests.chapter.lv.quest10.description1}"]
 			id: "7AE674329D7E7944"
 			rewards: [{
@@ -191,17 +191,6 @@
 			]
 			x: 0.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["41E48BCAEAD9D47E"]
-			id: "250C6C8AF08C21F1"
-			tasks: [{
-				id: "5B53C2C26DC1A0FB"
-				item: "gtceu:tin_single_cable"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -453,7 +442,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["4759D176E05E3D8C"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "2301C8A867356B99"
 			rewards: [
 				{
@@ -466,15 +455,19 @@
 					command: "/gamephase add @p twilightforest"
 					elevate_perms: true
 					id: "57D8F0400C68D005"
+					title: "进入暮色森林的权限"
 					type: "command"
 				}
 			]
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "{ftbquests.chapter.lv.quest25.subtitle}"
 			tasks: [{
 				id: "54DDAA9635F9C248"
 				item: "gtceu:exquisite_diamond_gem"
 				type: "item"
 			}]
+			title: "暮色森林权限"
 			x: 6.0d
 			y: -2.5d
 		}
@@ -605,18 +598,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4917074451DC7A27"]
-			id: "39E54D32FF4C6CAF"
-			subtitle: "{ftbquests.chapter.lv.quest31.subtitle}"
-			tasks: [{
-				id: "015416DBE1A33261"
-				item: "enderio:item_conduit"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["3F2A5A509F9DF84B"]
 			id: "5F7FAA87FCF5B725"
 			tasks: [{
@@ -638,7 +619,7 @@
 				table_id: 601634794626000726L
 				type: "random"
 			}]
-			subtitle: "{ftbquests.chapter.lv.quest33.subtitle}"
+			subtitle: "润滑油发电机"
 			tasks: [
 				{
 					id: "6E7479AFB1BFFAA5"
@@ -728,7 +709,6 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "13FE0DE58BECC609"
-			subtitle: "{ftbquests.chapter.lv.quest37.subtitle}"
 			tasks: [{
 				id: "500A72AF1B2BBBC2"
 				item: "ctpp:lv_kinetic_mixer"
@@ -737,17 +717,6 @@
 			title: "{ftbquests.chapter.lv.quest37.title}"
 			x: -6.0d
 			y: 0.5d
-		}
-		{
-			description: [""]
-			id: "4917074451DC7A27"
-			tasks: [{
-				id: "55D1263DC99F6B08"
-				item: "gtceu:pulsating_alloy_ingot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 8.0d
 		}
 		{
 			dependencies: ["4759D176E05E3D8C"]
@@ -767,17 +736,19 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["38EA7D1DD910DBF5"]
 			id: "2304A186EDD07CE0"
 			tasks: [{
 				id: "13CE04785BEBD1EE"
 				item: "gtceu:conductive_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2304A186EDD07CE0"]
+			description: ["    超导意味着EU传输过程中不会有任何损耗"]
 			id: "58E94DF9B0FE8012"
 			subtitle: "{ftbquests.chapter.lv.quest41.subtitle}"
 			tasks: [{
@@ -785,8 +756,8 @@
 				item: "gtceu:conductive_alloy_single_wire"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2D662EFDE7A39BB8"]
@@ -828,7 +799,6 @@
 		{
 			dependencies: ["64FAD8ABEFEF6286"]
 			id: "51175A3A3FCAE14C"
-			subtitle: "{ftbquests.chapter.lv.quest44.subtitle}"
 			tasks: [{
 				id: "73ECACAFEEA8918C"
 				item: "gtceu:energetic_alloy_single_wire"
@@ -849,125 +819,8 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2D662EFDE7A39BB8"]
-			id: "1F14A82831F5C61B"
-			tasks: [{
-				id: "4B73FBB0F178614C"
-				item: "enderio:void_chassis"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1F14A82831F5C61B"]
-			id: "5C8282F7EA8391A8"
-			tasks: [{
-				id: "3ACC5A709A38B258"
-				item: "enderio:alloy_smelter"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1F14A82831F5C61B"]
-			id: "7CEB8E116E3E1F7A"
-			tasks: [{
-				id: "5F349BEC82051FEE"
-				item: "enderio:sag_mill"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"1F14A82831F5C61B"
-				"1CD250F70B566174"
-			]
-			id: "199C34FF316CDB5D"
-			tasks: [{
-				id: "5DBAB9B5128F3AE7"
-				item: "enderio:ensouled_chassis"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 6.5d
-		}
-		{
-			id: "1CD250F70B566174"
-			tasks: [{
-				id: "7A77BF39C11C0BF6"
-				item: "gtceu:soularium_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["199C34FF316CDB5D"]
-			id: "2072672E99455E02"
-			tasks: [{
-				id: "77DEABF1AD07241C"
-				item: "enderio:slice_and_splice"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["199C34FF316CDB5D"]
-			id: "25F0981E1E4A0E7F"
-			tasks: [{
-				id: "716733C9922E17A0"
-				item: {
-					Count: 1
-					id: "enderio:powered_spawner"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 4.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["199C34FF316CDB5D"]
-			id: "6908B97B403240A1"
-			tasks: [{
-				id: "612A3FCED08C1E67"
-				item: "enderio:soul_binder"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 8.0d
-		}
-		{
-			id: "64B9355875C126ED"
-			tasks: [{
-				id: "56B2EE6B74321BB0"
-				item: "minecraft:zombie_head"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.5d
-		}
-		{
-			dependencies: [
-				"64B9355875C126ED"
-				"2072672E99455E02"
-			]
-			id: "66B4B300D2082B7D"
-			tasks: [{
-				id: "4FD1D6871386C5D8"
-				item: "enderio:frank_n_zombie"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 8.0d
-		}
-		{
 			dependencies: ["41E48BCAEAD9D47E"]
+			description: ["    消耗润滑油发电"]
 			id: "22C86649AA801204"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -999,7 +852,6 @@
 		{
 			dependencies: ["7AE674329D7E7944"]
 			id: "4B7A35D369A217E2"
-			subtitle: "{ftbquests.chapter.lv.quest58.subtitle}"
 			tasks: [{
 				id: "249CF4CBD68E1772"
 				item: "ctnhcore:large_steel_alloy_furnace"
@@ -1187,34 +1039,8 @@
 				item: "gtceu:lv_sensor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["75774FD66E513B5C"]
-			description: ["{ftbquests.chapter.lv.quest72.description1}"]
-			id: "3534E727B52EC2F2"
-			subtitle: "{ftbquests.chapter.lv.quest72.subtitle}"
-			tasks: [{
-				id: "0D86590B09AEE101"
-				item: "gtceu:lv_miner"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["3534E727B52EC2F2"]
-			description: ["{ftbquests.chapter.lv.quest73.description1}"]
-			id: "3889F08007235A6C"
-			subtitle: "{ftbquests.chapter.lv.quest73.subtitle}"
-			tasks: [{
-				id: "110FE957A43551B9"
-				item: "gtmthings:lv_digital_miner"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["06B6C2C77135D570"]
@@ -1240,42 +1066,6 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["027D2C1491F3A8A3"]
-			description: [
-				"{ftbquests.chapter.lv.quest76.description1}"
-				"{ftbquests.chapter.lv.quest76.description2}"
-			]
-			id: "45530E87906A1132"
-			subtitle: "{ftbquests.chapter.lv.quest76.subtitle}"
-			tasks: [{
-				id: "7191EC455D959859"
-				item: "gtceu:platinum_metal_dust"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			description: ["{ftbquests.chapter.lv.quest77.description1}"]
-			id: "6D8804D873A0038F"
-			subtitle: "{ftbquests.chapter.lv.quest77.subtitle}"
-			tasks: [
-				{
-					id: "7FED96D91AFDCD47"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-				{
-					id: "53FE64FC9C3D234C"
-					item: "gtceu:cinnabar_dust"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.lv.quest77.title}"
-			x: -3.0d
 			y: -2.5d
 		}
 		{

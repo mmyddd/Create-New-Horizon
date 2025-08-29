@@ -11,7 +11,7 @@
 		}
 	}
 	id: "142AC829C9062F15"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -589,7 +589,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 1.0d
+			size: 2.0d
 			subtitle: "这是哪个部门研究出来的？"
 			tasks: [{
 				id: "139ED399738E942B"
@@ -850,7 +850,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["351351BE58F24654"]
 			description: [
 				"活体多方块机器的&6一部分&r结构方块无法被制作，而是依靠自己生长；"
 				"使用食物右键主方块可提醒其生长"

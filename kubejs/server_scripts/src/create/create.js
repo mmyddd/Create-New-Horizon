@@ -542,25 +542,26 @@ ServerEvents.recipes(event => {
     let transitional = 'gtceu:ulv_input_bus'
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_bus'
-        ], 'gtceu:steam_input_bus', [
+        ], '#forge:chests/wooden', [
             event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-
-        ]).transitionalItem('gtceu:steam_input_bus')
-        .loops(2)
+        ]).transitionalItem('#forge:chests/wooden')
+        .loops(1)
 })
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:ulv_input_hatch'
     event.recipes.create.sequenced_assembly([
             'gtceu:ulv_input_hatch'
-        ], 'gtceu:steam_input_hatch', [
+        ], 'gtceu:bronze_drum', [
             event.recipes.createDeploying(transitional, [transitional, 'ctpp:steel_mechanism']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:ulv_machine_casing']),
             event.recipes.createDeploying(transitional, [transitional, 'gtceu:double_wrought_iron_plate']),
-        ]).transitionalItem('gtceu:steam_input_hatch')
-        .loops(2)
+        ]).transitionalItem('gtceu:bronze_drum')
+        .loops(1)
 })
+
+
 ServerEvents.recipes(event => {
     let transitional = 'gtceu:tungsten_steel_frame'
     event.recipes.create.sequenced_assembly([
