@@ -23,12 +23,12 @@ ServerEvents.recipes(event => {
     //    event.recipes.create.mechanical_crafting(result, recipe, target);
     //}
 
-    //event.shaped(Item.of("createmetallurgy:casting_basin", 1), 
-    //            ["A A", "A A", "ABA"], 
-    //            {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
-    //event.shaped(Item.of("createmetallurgy:casting_table", 1), 
-    //            ["ABA", "A A", "A A"], 
-    //            {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
+    event.shaped(Item.of("createmetallurgy:casting_basin", 1), 
+               ["A A", "A A", "ABA"], 
+               {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
+    event.shaped(Item.of("createmetallurgy:casting_table", 1), 
+               ["ABA", "A A", "A A"], 
+               {A: "gtceu:andesite_alloy_plate", B: "gtceu:double_andesite_alloy_plate"})
     event.shaped(Item.of("createmetallurgy:sturdy_whisk", 1), 
                 [" A ", "BCB", "DBD"], 
                 {A: "create:shaft", B: "gtceu:obsidian_plate", C: "create:whisk", D: "gtceu:wrought_iron_plate"})
@@ -42,11 +42,19 @@ ServerEvents.recipes(event => {
                 ["AAA", "BCB", "DBD" ], 
                 {A: "createmetallurgy:sandpaper_belt", B: "create:andesite_casing", C: "ctpp:basic_mechanism", D: "create:shaft"})
     event.shaped(Item.of("createmetallurgy:foundry_basin", 1), 
-                ["A A", "ABA", "AAA" ], 
-                {A: "tconstruct:seared_brick", B: "create:andesite_casing"})
+                ["A A", "A A", "ABA" ], 
+                {A: "gtceu:andesite_alloy_plate", B: "create:andesite_casing"})
     event.shaped(Item.of("createmetallurgy:foundry_lid", 1), 
-                ["AAA", "ABA", "A A" ], 
-                {A: "tconstruct:seared_brick", B: "create:andesite_casing"})
+                ["ABA", "A A", "A A" ], 
+                {A: "gtceu:andesite_alloy_plate", B: "create:andesite_casing"})
+    event.shaped(Item.of("createmetallurgy:faucet", 3), 
+                ["   ", "A A", " B " ], 
+                {A: "gtceu:andesite_alloy_plate", B: 'ctpp:basic_mechanism'})
+    event.shaped(Item.of('createmetallurgy:foundry_unit', 1), 
+                ["ABA"], 
+                {A: "gtceu:andesite_alloy_plate", B: 'minecraft:compass'})
+    
+
     //粉碎矿物得产物和其概率
     let materials = ['hematite', 'magnetite', 'precious_alloy', 'copper', 'diamond', 'tin', 'silver', 'vanadium_magnetite',
         'spodumene', 'rock_salt', 'salt', 'lepidolite', 'lazurite', 'lapis', 'sodalite', 'calcite', 'graphite', 'coal', 'zinc', 'gold',
@@ -83,9 +91,9 @@ ServerEvents.recipes(event => {
             event.recipes.create.splashing(Item.of(`minecraft:redstone`), `gtceu:impure_${material}_dust`)
     })
 
-    metallurgy(event, `gtceu:rubber_ingot`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "superheated")
+    //metallurgy(event, `gtceu:rubber_ingot`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "superheated")
     //特殊矿物的统一处理
-    let ingots = ['precious_alloy', 'silver' , 'nickel', 'lead', 'beryllium', 'molybdenum']
+    let ingots = [ 'silver' , 'nickel', 'lead', 'beryllium', 'molybdenum']
     ingots.forEach(material => {
         event.recipes.create.splashing([`11x gtceu:${material}_nugget`, Item.of(`gtceu:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
         metallurgy(event, `gtceu:crushed_${material}_ore`, 40, [{"fluid": `gtceu:${material}`, "amount": 108},
@@ -96,6 +104,19 @@ ServerEvents.recipes(event => {
         metallurgy(event, `gtceu:${material}_dust`, 40, [{"fluid": `gtceu:${material}`, "amount": 144}], "superheated")
         metallurgy(event, `gtceu:${material}_ingot`, 80, [{"fluid": `gtceu:${material}`, "amount": 144}], "superheated")
     })
+
+    let precious_alloy = ['precious_alloy']
+    precious_alloy.forEach(material => {
+        event.recipes.create.splashing([`11x gtceu:${material}_nugget`, Item.of(`gtceu:${material}_nugget`, 2).withChance(0.4)], `gtceu:purified_${material}_ore`)
+        metallurgy(event, `gtceu:crushed_${material}_ore`, 40, [{"fluid": `gtceu:${material}`, "amount": 108},
+                                                                {"fluid": "gtceu:slag", "amount": 100}],"superheated")
+        metallurgy(event, `gtceu:purified_${material}_ore`, 40, [{"fluid": `gtceu:${material}`, "amount": 144}], "superheated")
+        metallurgy(event, `gtceu:impure_${material}_dust`, 40, [{"fluid": `gtceu:${material}`, "amount": 144},
+                                                                {"fluid": "gtceu:slag", "amount": 50}], "superheated")
+        metallurgy(event, `gtceu:${material}_dust`, 40, [{"fluid": `gtceu:slag`, "amount": 50}, {"fluid": `gtceu:gold`, "amount": 48}], "superheated")
+        metallurgy(event, `gtceu:${material}_ingot`, 80, [{"fluid": `gtceu:slag`, "amount": 50}, {"fluid": `gtceu:gold`, "amount": 48}], "superheated")
+    })
+    
     //一般矿物的统一处理
     // Copper/Iron/Gold Ingot
     let minecraftIngots = ['iron', 'copper', 'gold',]
@@ -224,7 +245,27 @@ ServerEvents.recipes(event => {
     //对安山合金粉的处理
     event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_dust', 90, 'heated')
     event.recipes.createmetallurgy.melting(Fluid.of('gtceu:andesite_alloy', 144), 'gtceu:andesite_alloy_ingot', 90, 'superheated')
-    
+
+    //熔铸
+
+    let gtceu_metal = ['andesite_alloy', 'brass', 'steel', 'precious_alloy','silver' , 'nickel', 'lead', 'beryllium', 'molybdenum','tin','zinc']
+    gtceu_metal.forEach(metal => {
+        event.recipes.createmetallurgy.casting_in_table(`gtceu:${metal}_ingot`,[Fluid.of(`gtceu:${metal}`, 144), 'createmetallurgy:graphite_ingot_mold'],20)
+        event.recipes.createmetallurgy.casting_in_basin(`gtceu:${metal}_block`, Fluid.of(`gtceu:${metal}`, 1296), 90)
+    })
+
+    let vanilla_metal = ['iron', 'copper', 'gold']
+    vanilla_metal.forEach(metal => {
+        event.recipes.createmetallurgy.casting_in_table(`minecraft:${metal}_ingot`,[Fluid.of(`gtceu:${metal}`, 144), 'createmetallurgy:graphite_ingot_mold'],20)
+        event.recipes.createmetallurgy.casting_in_basin(`minecraft:${metal}_block`, Fluid.of(`gtceu:${metal}`, 1296), 90)
+    })
+
+
+    event.recipes.createmetallurgy.casting_in_table(`gtceu:rubber_ingot`,[Fluid.of(`gtceu:rubber`, 144), 'createmetallurgy:graphite_ingot_mold'],10)
+    event.recipes.createmetallurgy.casting_in_basin(`gtceu:rubber_block`, Fluid.of(`gtceu:rubber`, 1296), 2)
+    event.recipes.createmetallurgy.casting_in_basin('minecraft:glass', Fluid.of('gtceu:glass', 144), 2)
+
+
     remove_recipes_id(event, ['create:crushing/raw_copper'])
     remove_recipes_output(event, ['create:crushed_raw_lead',
                                   'create:crushed_raw_copper',
@@ -268,6 +309,6 @@ ServerEvents.recipes(event => {
  //玻璃、橡胶
 ServerEvents.recipes(event => {
     metallurgy(event, `kubejs:rubber_powder`, 40, [{"fluid": `gtceu:rubber`, "amount": 144}], "heated")
-    metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `tconstruct:molten_glass`, "amount": 125}],"heated")
+    metallurgy(event, `gtceu:glass_dust`, 40, [{"fluid": `gtceu:glass`, "amount": 144}],"heated")
 
 })

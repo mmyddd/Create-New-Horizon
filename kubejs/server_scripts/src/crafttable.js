@@ -250,6 +250,17 @@ ServerEvents.recipes(event => {
             }).keepIngredient("alexscaves:scarlet_magnet")
         .keepIngredient("alexscaves:azure_magnet")
     event.shaped(
+            Item.of('gtceu:magnetic_iron_bolt', 7), [
+                "ABA",
+                "AAA",
+                "ACA"
+            ], {
+                A: 'gtceu:iron_bolt',
+                B: "alexscaves:scarlet_magnet",
+                C: "alexscaves:azure_magnet"
+            }).keepIngredient("alexscaves:scarlet_magnet")
+        .keepIngredient("alexscaves:azure_magnet")
+    event.shaped(
         Item.of("create_new_age:magnetite_block", 5), [
             "ABA",
             "BAB",
@@ -401,15 +412,58 @@ ServerEvents.recipes(event => {
             C: "gtceu:gold_plate",
             D: "botania:cosmetic_engineer_goggles"
         })
+
+    //魔力透镜魔改；磁化透镜制作磁化物品
     event.shaped(
-        Item.of("gtceu:magnetic_iron_ingot", 4), [
+        Item.of('botania:lens_normal', 1), [
             " A ",
             "ABA",
             " A "
         ], {
+            A: 'gtceu:mana_steel_plate',
+            B: "minecraft:glass_pane"
+        })
+    event.shaped(
+        Item.of('botania:lens_magnet', 1), [
+            "   ",
+            "ABC",
+            "   "
+        ], {
+            A: '#forge:dyes/blue',
+            B: "botania:lens_normal",
+            C: '#forge:dyes/red'
+        })    
+
+
+    event.shaped(
+        Item.of("gtceu:magnetic_iron_ingot", 8), [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
             A: "minecraft:iron_ingot",
             B: "botania:lens_magnet"
-        })
+        }).keepIngredient("botania:lens_magnet")
+
+    event.shaped(
+            Item.of("gtceu:magnetic_iron_rod", 8), [
+                "AAA",
+                "ABA",
+                "AAA"
+            ], {
+                A: "gtceu:iron_rod",
+                B: "botania:lens_magnet"
+            }).keepIngredient("botania:lens_magnet")
+    event.shaped(
+            Item.of("gtceu:magnetic_iron_bolt", 8), [
+                "AAA",
+                "ABA",
+                "AAA"
+            ], {
+                A: "gtceu:iron_bolt",
+                B: "botania:lens_magnet"
+            }).keepIngredient("botania:lens_magnet")
+   
     event.shaped(
         Item.of("create_new_age:layered_magnet", 2), [
             "AAA",

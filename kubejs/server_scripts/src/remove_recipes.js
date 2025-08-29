@@ -180,8 +180,9 @@ ServerEvents.recipes(event => {
         "create:pressing/neptunium_ingot",
         "create:pressing/uranium_ingot",
         "gtceu:shaped/bronze_primitive_blast_furnace",
-        "gtceu:smelting/wrought_iron_nugget"
-
+        "gtceu:smelting/wrought_iron_nugget",
+        /gtceu:shaped\/foil_(.*)/,
+        /gtceu:shaped\/spring_(.*)/
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",
@@ -217,6 +218,8 @@ ServerEvents.recipes(event => {
         "tconstruct:seared_fuel_gauge",
         "tconstruct:seared_ingot_tank",
         "tconstruct:seared_ingot_gauge",
+        'botania:lens_normal',
+        'botania:lens_magnet',
         /vintageimprovements:(.*)_sheet/,
         /vintageimprovements:(.*)_rod/,
         /vintageimprovements:(.*)_wire/
