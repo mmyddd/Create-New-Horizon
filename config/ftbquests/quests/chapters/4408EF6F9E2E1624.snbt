@@ -149,7 +149,7 @@
 				"5E5F4837CC1F047A"
 				"2A633C681F979398"
 			]
-			description: [""]
+			description: ["    动力搅拌器+工作盆可执行工作台的任意无序合成配方，这一特性仍然存在，但为了便于从jei中检索信息，相关页面在jei中被隐藏了。"]
 			id: "700219157D99E263"
 			rewards: [{
 				count: 32
@@ -159,7 +159,7 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest10.subtitle}"
+			subtitle: "送你一些铅粉，虽然不一定有用"
 			tasks: [{
 				id: "10269625F0B773D1"
 				item: "create:mechanical_mixer"
@@ -658,6 +658,7 @@
 		}
 		{
 			dependencies: ["30BE9ED9BA8D5E8C"]
+			description: ["    动力合成器可执行工作台的任意有序合成配方，这一特性仍然存在，但为了便于从jei中检索信息，相关页面在jei中被隐藏了。"]
 			id: "106DC15191737D98"
 			subtitle: "{ftbquests.chapter.4408EF6F9E2E1624.quest62.subtitle}"
 			tasks: [{

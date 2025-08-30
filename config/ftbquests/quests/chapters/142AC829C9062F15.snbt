@@ -770,7 +770,10 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["351351BE58F24654"]
+			dependencies: [
+				"351351BE58F24654"
+				"53E534A981177FEC"
+			]
 			id: "65E0B77C49C4F584"
 			tasks: [{
 				id: "14F9778E4DEA7CB6"
@@ -781,7 +784,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["351351BE58F24654"]
+			dependencies: [
+				"351351BE58F24654"
+				"3042E50E7034C8C0"
+			]
 			id: "6DD7D2E0A83FBC3C"
 			tasks: [{
 				id: "26C04647F8299385"
@@ -890,6 +896,26 @@
 			title: "活体多方块机器"
 			x: 5.0d
 			y: 6.5d
+		}
+		{
+			id: "53E534A981177FEC"
+			tasks: [{
+				id: "0460393FCE082088"
+				item: "ctnhbio:synaptic_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "3042E50E7034C8C0"
+			tasks: [{
+				id: "7136201F3059ED39"
+				item: "biomancy:flesh_spike"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
 		}
 	]
 	title: "血肉重铸"

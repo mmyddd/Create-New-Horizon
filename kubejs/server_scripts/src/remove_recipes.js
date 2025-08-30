@@ -148,9 +148,6 @@ ServerEvents.recipes(event => {
         "gtceu:electrolyzer/decomposition_electrolyzing_ruthenium_amalgam",
         "gtceu:electrolyzer/decomposition_electrolyzing_osmium_iron_spinel",
         "gtceu:mixer/neutronium_mixture",
-        "gtceu:assembler/heavy_ingot_t2",
-        "gtceu:assembly_line/heavy_ingot_t4",
-        "gtceu:assembler/heavy_ingot_t3",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_powered_rail",
         "gtceu:smashing_factory_recipes/smashing_factory_recipes/macerate_activator_rail",
@@ -181,10 +178,20 @@ ServerEvents.recipes(event => {
         "create:pressing/uranium_ingot",
         "gtceu:shaped/bronze_primitive_blast_furnace",
         "gtceu:smelting/wrought_iron_nugget",
+        //工作台制作箔和弹簧
         /gtceu:shaped\/foil_(.*)/,
         /gtceu:shaped\/spring_(.*)/,
+        //末影之眼块合成末影之眼
         'gtceu:shapeless/block_decompress_ender_eye',
-        'gtceu:forge_hammer/hammer_ender_eye_block_to_gem'
+        'gtceu:forge_hammer/hammer_ender_eye_block_to_gem',
+        //非中央厨房南瓜派配方
+        'gtceu:shapeless/pumpkin_pie_from_dough',
+        'deep_aether:pumpkin_pie',
+        'aether:moa_egg_pumpkin_pie',
+        //湿件研究站
+        'gtceu:research_station/1x_gtceu_wetware_processor_assembly',
+        'gtceu:research_station/1x_gtceu_wetware_processor_computer',
+        
     ])
     remove_recipes_output(event, [
         "create:cart_assembler",

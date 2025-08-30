@@ -12,7 +12,7 @@
 			linked_quest: "7FD9B0E41358497D"
 			shape: "gear"
 			x: 2.0d
-			y: 2.5d
+			y: 8.0d
 		}
 		{
 			id: "1E89B8AB6D106F05"
@@ -58,7 +58,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.5d
+			y: 6.5d
 		}
 		{
 			id: "2F0AFEF0F176A92F"
@@ -70,10 +70,10 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["38559FFEC45C6B03"]
+			dependencies: ["1C276DAC38B004B1"]
 			id: "0C3AB83D2762EC3D"
 			tasks: [{
 				id: "182F2580D81C384D"
@@ -84,15 +84,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["38559FFEC45C6B03"]
+			dependencies: ["1C276DAC38B004B1"]
 			id: "4A1F708FDEEA50D2"
 			tasks: [{
 				id: "557D1FEA727BC42A"
 				item: "gtceu:uv_energy_output_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A1F708FDEEA50D2"]
@@ -105,8 +105,8 @@
 				item: "ctnhcore:naq_reactor_mk3"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 0.0d
+			y: 3.75d
 		}
 		{
 			dependencies: [
@@ -510,34 +510,6 @@
 			}]
 			x: 14.5d
 			y: -12.5d
-		}
-		{
-			dependencies: ["0C3AB83D2762EC3D"]
-			id: "2DBA5445319926BE"
-			shape: "circle"
-			size: 2.0d
-			subtitle: "锗从冶炼炉里来"
-			tasks: [{
-				id: "25A8BD7CF4103101"
-				item: "gtceu:abyssalalloy_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2DBA5445319926BE"]
-			id: "0C5E045DBD9D132E"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "UHV线圈"
-			tasks: [{
-				id: "7FDBB66A6463D160"
-				item: "ctnhcore:abyssalalloy_coil_block"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["7F81295FE18741A6"]
@@ -1018,6 +990,66 @@
 			}]
 			x: 22.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["021B8F054C53AD36"]
+			description: ["需要给HPCA装上桥接组件，才能通过交换机连接起来以达到更高算力"]
+			icon: "gtceu:network_switch"
+			id: "1C276DAC38B004B1"
+			rewards: [{
+				id: "4083BF89C86EB8FC"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "获得64算力的方法"
+			tasks: [
+				{
+					id: "7800D6CAE77BAF6E"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "48EE4BBE1558A4CE"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38559FFEC45C6B03"]
+			id: "0A1650016D17B7F3"
+			tasks: [{
+				id: "20A935E8E14ACEE7"
+				item: "gtceu:uv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0A1650016D17B7F3"]
+			id: "53F07756D65FCF89"
+			tasks: [{
+				id: "54AE603CA8973D87"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53F07756D65FCF89"]
+			id: "021B8F054C53AD36"
+			tasks: [{
+				id: "2181D2ADA113AA14"
+				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.uv.title}"

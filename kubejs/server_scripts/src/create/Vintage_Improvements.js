@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
 
     function addTurningRecipes(metal, ingot, rodTime, boltTime, screwTime) {
     // ingot -> rod
-    vintageimprovements.turning(`gtceu:${metal}_rod`, ingot)
+    vintageimprovements.turning(`2x gtceu:${metal}_rod`, ingot)
         .processingTime(rodTime)
 
     // rod -> 2x bolt
