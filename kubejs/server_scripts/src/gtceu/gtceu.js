@@ -2211,7 +2211,7 @@ ServerEvents.recipes(event => {
         .inputFluids(Fluid.of('gtceu:naquadria', 16000))
         .inputFluids(Fluid.of('gtceu:pulsating_alloy', 16000))
         .inputFluids(Fluid.of('gtceu:molten_tungsten_carbide', 16000))
-        .itemOutputs('ctnhcore:silica_rock_fuel_refinery')
+        .itemOutputs('ctnhcore:sterile_cleanroom_maintenance_hatch')
         .EUt(491520)
         .duration(1000)
         .stationResearch(b => b.researchStack(Item.of('ctnhcore:fuel_refining_factory'))
