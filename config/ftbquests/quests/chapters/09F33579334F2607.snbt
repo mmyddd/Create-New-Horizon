@@ -1015,7 +1015,7 @@
 			subtitle: "神"
 			tasks: [{
 				id: "7381CFE03BF65333"
-				item: "gtceu:gaia_reactor"
+				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
 			x: 14.5d

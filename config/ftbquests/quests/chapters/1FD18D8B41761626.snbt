@@ -1101,7 +1101,7 @@
 			subtitle: "盖亚保护协会表示谴责"
 			tasks: [{
 				id: "5E67E5ADDE66A448"
-				item: "gtceu:gaia_reactor"
+				item: "ctnhcore:gaia_reactor"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1238,7 +1238,7 @@
 			subtitle: "小而巧"
 			tasks: [{
 				id: "6EAB01420115B37B"
-				item: "ctnhcore:alter"
+				item: "ctnhcore:industrial_altar"
 				type: "item"
 			}]
 			x: -3.5d

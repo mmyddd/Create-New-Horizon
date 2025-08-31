@@ -510,35 +510,6 @@
 			x: 4.5d
 			y: -1.0d
 		}
-		{
-			dependencies: ["7D76859D3E40A235"]
-			id: "4A0456D96C44D026"
-			tasks: [{
-				id: "6502C0E229018420"
-				item: "tconstruct:smeltery_controller"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7D76859D3E40A235"]
-			id: "0A6C588F27ECFFE8"
-			tasks: [
-				{
-					id: "653EDE2BC0DAC875"
-					item: "sophisticatedstorage:controller"
-					type: "item"
-				}
-				{
-					id: "67E42FD12CFFB908"
-					item: "tconstruct:crafting_station"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: -1.0d
-		}
 	]
 	title: "{ftbquests.chapter.08AF6857D150C353.title}"
 }

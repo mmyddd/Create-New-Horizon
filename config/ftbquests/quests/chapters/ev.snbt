@@ -1221,10 +1221,11 @@
 			y: 5.0d
 		}
 		{
+			description: ["     用胶带右键钻石块有更高产出。"]
 			id: "6F6CE9819AC46724"
 			shape: "heart"
 			size: 1.0d
-			subtitle: "{ftbquests.chapter.ev.quest99.subtitle}"
+			subtitle: "用胶带粘出石墨烯"
 			tasks: [{
 				id: "2DAF50E69DEC315D"
 				item: "gtceu:small_graphene_dust"
@@ -1299,7 +1300,7 @@
 			id: "2B5B66B395B0530B"
 			tasks: [{
 				id: "0212A973114CC429"
-				item: "gtceu:uranium_waste"
+				item: "gtceu:uranium_raw_waste"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1498,7 +1499,7 @@
 			id: "28B04AB25D375E6A"
 			tasks: [{
 				id: "378235D85A0C70A1"
-				item: "gtceu:plutonium_waste"
+				item: "gtceu:plutonium_raw_waste"
 				type: "item"
 			}]
 			x: 3.0d

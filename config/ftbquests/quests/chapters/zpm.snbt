@@ -273,6 +273,7 @@
 		}
 		{
 			dependencies: ["762DC8899FC95277"]
+			description: ["    虽然制作方式已经与原版格雷相去甚远。"]
 			id: "7D527B8CCB41E418"
 			subtitle: "原版格雷的顶点"
 			tasks: [{
