@@ -6,15 +6,17 @@
 //    })//批量注册匠魂浇筑配方
 //
 //})
-//ServerEvents.tags('minecraft:fluid', event => {
-//    // 标签id，流体id
-//	let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
-//                         'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 'manganese', 'slag', 'steel', 'aluminum', 'uranium', 'glass', 'invar']
-//	fluidmaterials.forEach(fluidmaterial => {
-//		event.add(`forge:molten_${fluidmaterial}`, `gtceu:${fluidmaterial}`)
-//		event.removeAll(`tconstruct:molten_${fluidmaterial}`)
-//	})
-//})
+ServerEvents.tags('minecraft:fluid', event => {
+	// 标签id，流体id
+	let fluidmaterials = ['precious_alloy', 'tin', 'silver', 'zinc', 'nickel', 'lead', 'beryllium',
+						 'molybdenum', 'brass', 'gold', 'iron', 'bronze', 'copper', 'cobalt', 
+						 'manganese', 'slag', 'steel', 'aluminium', 'uranium', 'osmium', 'invar',
+						'eleectrum', 'platinum', 'tungsten', 'rose_gold', 'electrum']
+	fluidmaterials.forEach(fluidmaterial => {
+		event.remove('tconstruct:glass','tconstruct:glass')
+		event.removeAll(`tconstruct:${fluidmaterial}`)
+	})
+})
 //浇筑
 ServerEvents.recipes(event => {
     event.recipes.tconstruct.casting_table(

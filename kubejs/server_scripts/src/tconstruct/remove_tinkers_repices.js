@@ -37,11 +37,9 @@ ServerEvents.recipes(event => {
         "tconstruct:smeltery/casting/filling/seared_lantern_full",
         "tconstruct:smeltery/casting/filling/seared_lantern_pixel",
         //钨
-        "tconstruct:tools/materials/melting/tungsten",
         "tconstruct:smeltery/alloys/molten_tungsten",
         /tconstruct:smeltery\/melting\/metal\/tungsten\/(.*)/,
         //饿
-        "tconstruct:tools/materials/melting/osmium",
         "tconstruct:smeltery/alloys/molten_osmium",
         /tconstruct:smeltery\/melting\/metal\/osmium\/(.*)/,
         //琥珀金合金配方
@@ -51,7 +49,29 @@ ServerEvents.recipes(event => {
         //殷钢合金配方
         "tconstruct:smeltery/alloys/molten_invar",
         //铁粒
-        "tconstruct:smeltery/melting/metal/iron/nugget"        
+        "tconstruct:smeltery/melting/metal/iron/nugget",
+        //玻璃
+        'tconstruct:smeltery/entity_melting/heads/creeper',
+        'tconstruct:smeltery/melting/amethyst/tinted_glass',
+        'tconstruct:smeltery/melting/ender/end_crystal',
+        'tconstruct:smeltery/melting/metal/copper/gauge',
+        'tconstruct:smeltery/melting/obsidian/beacon',
+        'tconstruct:smeltery/melting/obsidian/gauge',
+        'tconstruct:smeltery/melting/quartz/daylight_detector',
+        'tconstruct:smeltery/melting/scorched/glass_tinted',
+        'tconstruct:smeltery/melting/seared/fluid_cannon',
+        'tconstruct:smeltery/melting/seared/fuel_tank',
+        'tconstruct:smeltery/melting/seared/gauge',
+        'tconstruct:smeltery/melting/seared/glass',
+        'tconstruct:smeltery/melting/seared/glass_tinted',
+        'tconstruct:smeltery/melting/seared/ingot_tank',
+        'tconstruct:smeltery/melting/seared/lantern',
+        'tconstruct:smeltery/melting/seared/melter',
+        'tconstruct:smeltery/melting/seared/pane',
+        'tconstruct:smeltery/melting/seared/seared_casting_tank',
+        'tconstruct:tools/materials/melting/glass',
+        //末影之眼
+        'tconstruct:smeltery/casting/ender/eye'
     ])
 })
 //熔铸炉矿物配方
