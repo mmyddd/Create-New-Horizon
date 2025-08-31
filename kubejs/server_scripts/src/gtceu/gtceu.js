@@ -35,20 +35,20 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20) // [*]//矿脉大小，与单个矿脉内矿物数量相关
         vein.density(0.3) // [*]//密度
         vein.discardChanceOnAirExposure(0) //
-        // 定义在哪里生成
+            // 定义在哪里生成
         vein.layer("deepslate") // [*]//替换方块类型
         vein.dimensions("minecraft:overworld") //限制维度
         vein.biomes("#minecraft:is_overworld") //限制生物群系
-        // 定义高度范围
+            // 定义高度范围
         vein.heightRangeUniform(-20, 20) //高度
-        // 配置矿脉矿物类型
-       vein.layeredVeinGenerator(generator => generator
-        .buildLayerPattern(pattern => pattern
-            //weight:矿物权重
-            .layer(l => l.weight(1).block(() => Block.getBlock('sakuratinker:eezo_ore')).size(1, 1))
-            .layer(l => l.weight(2).state(() => Block.getBlock('sakuratinker:terracryst_ore').defaultBlockState()).size(1, 2))
-            .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:prometheum_ore').defaultBlockState()).size(2, 3))
-            .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:orichalcum_ore').defaultBlockState()).size(4, 6))
+            // 配置矿脉矿物类型
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                //weight:矿物权重
+                .layer(l => l.weight(1).block(() => Block.getBlock('sakuratinker:eezo_ore')).size(1, 1))
+                .layer(l => l.weight(2).state(() => Block.getBlock('sakuratinker:terracryst_ore').defaultBlockState()).size(1, 2))
+                .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:prometheum_ore').defaultBlockState()).size(2, 3))
+                .layer(l => l.weight(3).state(() => Block.getBlock('sakuratinker:orichalcum_ore').defaultBlockState()).size(4, 6))
             )
         )
     })
@@ -204,10 +204,6 @@ ServerEvents.recipes(event => {
         .EUt(480)
         .duration(100)
         .itemOutputs("ctnhcore:blaze_blast_furnace_casing")
-    event.recipes.gtceu.mana_generator("mana_generator")
-        .inputFluids(Fluid.of("gtceu:mana", 4))
-        .duration(60)
-        .EUt(-32)
     event.recipes.gtceu.assembler("blaze_blast_furnace")
         .itemInputs(["4x #gtceu:circuits/ev", "4x ctnhcore:blaze_blast_furnace_casing", "2x gtceu:pyrotheum_dust", "2x gtceu:hv_sensor", "gtceu:hv_field_generator"])
         .inputFluids(Fluid.of("gtceu:polyvinyl_chloride", 288))
@@ -2808,8 +2804,8 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:wrought_iron_ingot')
         .EUt(8)
         .duration(100)
-    //原版熔炉配方
+        //原版熔炉配方
     event.smelting('gtceu:hot_high_temp_wrought_precursor_ingot', 'minecraft:iron_ingot')
-        .cookingTime(400)  
-        .xp(1.4);       
+        .cookingTime(400)
+        .xp(1.4);
 });
