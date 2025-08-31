@@ -238,7 +238,7 @@ ServerEvents.recipes(event => {
         .loops(1)
 })
 ServerEvents.recipes(event => {
-    let transitional = 'minecraft:oak_slab'
+    let transitional = 'ctpp:incomplete_basic_mechanism'
     event.recipes.create.sequenced_assembly([
             'ctpp:basic_mechanism'
         ], '#minecraft:wooden_slabs', [
