@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
 	//熔融粘土
 	event.recipes.tconstruct.melting(
-		Fluid.of("tconstruct:molten_clay", 125),
+		Fluid.of("tconstruct:clay", 125),
 		"gtceu:fireclay_dust",
 		1000,
 		200
