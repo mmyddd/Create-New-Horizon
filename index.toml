@@ -5546,7 +5546,7 @@ hash = "a65c3670ba34a021db23b348ac46707b1cc12975a315039198aa39a565cffefa"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "d681b7f9bf3aab5cddad651d81e62d6936034569c2d9dc9c04b6ea0cbe805229"
+hash = "7c151b90726bdb5f6f11b4f6e661c643bd17ba1b67d2e059624daf9a86c180cc"
 
 [[files]]
 file = "kubejs/config/common.properties"
