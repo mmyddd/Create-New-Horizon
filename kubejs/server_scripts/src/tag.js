@@ -47,6 +47,7 @@ ServerEvents.tags('block_entity_type', event => {
 
 ServerEvents.tags('fluid',event =>{
     event.add('createdieselgenerators:pumpjack_output','gtceu:impure_oil')
+    event.add('forge:glass','tconstruct:glass')
     event.remove('createdieselgenerators:pumpjack_output','createdieselgenerators:crude_oil')
 })
 
