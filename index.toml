@@ -5546,7 +5546,7 @@ hash = "a65c3670ba34a021db23b348ac46707b1cc12975a315039198aa39a565cffefa"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "9c329a6eed63abe6ad8975d96bd6551337de020163f8226fbb629ed407a0634d"
+hash = "d681b7f9bf3aab5cddad651d81e62d6936034569c2d9dc9c04b6ea0cbe805229"
 
 [[files]]
 file = "kubejs/config/common.properties"
@@ -9726,7 +9726,7 @@ hash = "99999009e4e5de739a5f0c93dedab303327619db67c0cc2afc076a364894bb85"
 
 [[files]]
 file = "kubejs/server_scripts/src/ae2.js"
-hash = "f9cb92015ff97e517406e61efb3d828eb0b28ec5828695a8de16bd1881c5f5f1"
+hash = "9a0226d04161ff01b386f9b23c6192e55eddbca90745f5ab7bdd26a1cc4de622"
 
 [[files]]
 file = "kubejs/server_scripts/src/apothesis/spawner.js"
@@ -9951,6 +9951,10 @@ hash = "56e4240ec390123442d2a0802d193bedf4841b423c67219944a457f3b0638f8e"
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/hellforge/event.js"
 hash = "7ec4a7b1a4d8b29c7c6262412d8a4b39378b6b4206943a0c6cd85f8170c4a355"
+
+[[files]]
+file = "kubejs/server_scripts/src/gtceu/tape_graphene.js"
+hash = "c198db68907bd12d2ff10d520e178514b69fbe6282d95c230bf255634ff7923f"
 
 [[files]]
 file = "kubejs/server_scripts/src/gtceu/uper_mana2.js"
@@ -10420,7 +10424,7 @@ metafile = true
 
 [[files]]
 file = "mods/ctnh-core.pw.toml"
-hash = "c948f9c71bf4eb17b46adc162743b1ba00294cf7336e4525a222de7d29427364"
+hash = "e86accfd21e94d686ea4553f10fe749f284ab2d82edd127eac06268119e0b520"
 metafile = true
 
 [[files]]
